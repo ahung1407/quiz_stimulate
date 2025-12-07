@@ -1,0 +1,842 @@
+[
+    {
+        "id": 1,
+        "question": "Một công ty phần mềm hiện tại tung ra bản cập nhật thêm tính năng bảo mật tiên tiến cho sản phẩm của mình, giúp khách hàng cảm thấy an toàn hơn khi sử dụng. Loại hình đổi mới này thuộc nhóm nào, theo phân loại góc độ nhìn nhận?",
+        "options": {
+            "A": "Đổi mới phá vỡ (Disruptive innovation)",
+            "B": "Đổi mới đột phá (Radical innovation)",
+            "C": "Đổi mới duy trì (Sustaining innovation)",
+            "D": "Đổi mới về tiếp thị (Marketing innovation)"
+        },
+        "answer": "C",
+        "explanation": "Đổi mới duy trì (sustaining) là loại đổi mới nhằm cải tiến sản phẩm hiện có để giữ chân khách hàng hiện tại và duy trì vị thế cạnh tranh, trong khi đổi mới đột phá (radical/breakthrough) tạo ra những cái mới chưa từng có."
+    },
+    {
+        "id": 2,
+        "question": "Sự khác biệt cơ bản về phạm vi thị trường giữa Doanh nghiệp Khởi nghiệp Đổi mới Sáng tạo (IDE) và Doanh nghiệp Kinh doanh Nhỏ (SBE) là gì?",
+        "options": {
+            "A": "SBE chỉ phục vụ thị trường địa phương; IDE phục vụ thị trường khu vực và toàn cầu.",
+            "B": "SBE chỉ tạo ra sự gia tăng của cải; IDE tập trung vào sản phẩm.",
+            "C": "IDE chỉ do một người sáng lập; SBE do một nhóm đa chuyên môn.",
+            "D": "IDE không cần đổi mới về quy trình; SBE tập trung vào dịch vụ xã hội."
+        },
+        "answer": "A",
+        "explanation": "Doanh nghiệp (khởi nghiệp) đổi mới sáng tạo (IDE) thường được xây dựng dựa trên một nhóm với nhiều thành viên có chuyên môn khác nhau, phục vụ cho thị trường khu vực và toàn cầu, trong khi Doanh nghiệp kinh doanh nhỏ (SBE) thường phục vụ thị trường địa phương."
+    },
+    {
+        "id": 3,
+        "question": "Trong quy trình khởi nghiệp 4 giai đoạn, hành động nào sau đây là trọng tâm chính của Giai đoạn 2: Thiết kế sản phẩm và Phân tích cạnh tranh?",
+        "options": {
+            "A": "Ước tính các chỉ tiêu tài chính như NPV, IRR, PP.",
+            "B": "Phân tích tổng thể ngành công nghiệp và xây dựng năng lực cạnh tranh cốt lõi.",
+            "C": "Chuyển đổi khách hàng tiềm năng thành khách hàng trả tiền.",
+            "D": "Xác định ý tưởng và chọn lựa thị trường trọng tâm ban đầu."
+        },
+        "answer": "B",
+        "explanation": "Trong Giai đoạn 2, nhà khởi nghiệp cần thực hiện Thiết kế sản phẩm mẫu và lập kế hoạch phát triển sản phẩm, đồng thời Phân tích tổng thể ngành công nghiệp, các đặc điểm cạnh tranh trong ngành và xây dựng được năng lực cạnh tranh và vị thế của doanh nghiệp trong thị trường,."
+    },
+    {
+        "id": 4,
+        "question": "Khởi nghiệp theo hướng \"Thị trường kéo\" (Market-Pull) được coi là có rủi ro thấp hơn so với \"Công nghệ đẩy\" (Technology-Push) vì lý do chủ yếu nào?",
+        "options": {
+            "A": "Khách hàng đã có sẵn một \"nỗi đau\" rõ ràng và sẵn sàng chi tiền để giải quyết vấn đề đó.",
+            "B": "Nó không đòi hỏi vốn đầu tư ban đầu lớn và không cần đội ngũ đa chuyên môn.",
+            "C": "Nó luôn dẫn đến việc tạo ra một khái niệm mới có tiềm năng phá vỡ thị trường.",
+            "D": "Nó tập trung vào việc sử dụng công nghệ ưu việt nhất."
+        },
+        "answer": "A",
+        "explanation": "Khởi nghiệp từ \"Thị trường kéo\" có rủi ro thấp vì nhiều khả năng là khách hàng sẽ sẵn sàng chi tiền để giải quyết \"nỗi đau\" của họ, do nhà khởi nghiệp đã xác định được nhu cầu của khách hàng đang cần."
+    },
+    {
+        "id": 5,
+        "question": "Một nhà khởi nghiệp phát triển một ý tưởng từ đam mê cá nhân trong lĩnh vực giáo dục và có nền tảng về phát triển phần mềm. Theo khung phân tích xuất phát điểm cá nhân, yếu tố nào cần được ưu tiên đánh giá tiếp theo để đảm bảo tính khả thi của ý tưởng?",
+        "options": {
+            "A": "Liệu ý tưởng này có phù hợp với mô hình nhượng quyền không?",
+            "B": "Liệu có đủ nguồn tài sản tài chính để bắt đầu khởi sự không?",
+            "C": "Tốc độ tăng trưởng kép hàng năm (CAGR) của ngành này là bao nhiêu?",
+            "D": "Loại hình đổi mới nào là phù hợp nhất (incremental hay radical)?"
+        },
+        "answer": "B",
+        "explanation": "Tài sản tài chính là một trong những câu hỏi cốt lõi để đánh giá tiềm lực bản thân (điểm tựa bản thân): \"Bạn có thể tiếp cận được nguồn tài chính dồi dào hay bạn chỉ có thể dựa vào một ít tiền tiết kiệm?\"."
+    },
+    {
+        "id": 6,
+        "question": "Một nhà sáng lập có điểm cao ở tố chất \"Enterprising\" (dám nghĩ dám làm) và \"Artistic\" (tính nghệ sĩ) nhưng điểm thấp ở \"Investigative\" (thích nghiên cứu) theo mô hình John Holland. Thách thức lớn nhất mà người này có thể gặp phải trong quá trình khởi nghiệp là gì?",
+        "options": {
+            "A": "Khó khăn trong việc giao tiếp và thuyết phục nhà đầu tư.",
+            "B": "Thiếu khả năng sáng tạo ra các giải pháp đột phá.",
+            "C": "Thiếu đi sự phân tích vấn đề một cách mạch lạc, chặt chẽ và khả năng giải quyết các vấn đề phức tạp.",
+            "D": "Không kiểm soát được cảm xúc khi đối mặt với khó khăn."
+        },
+        "answer": "C",
+        "explanation": "Tố chất \"Investigative\" (Người thích nghiên cứu) liên quan đến khả năng phân tích vấn đề, suy nghĩ một cách mạch lạc, chặt chẽ, và giải quyết những vấn đề phức tạp,."
+    },
+    {
+        "id": 7,
+        "question": "Đặc điểm tâm lý \"Hiệu quả cá nhân\" của nhà khởi nghiệp tiềm năng được thể hiện rõ nhất qua hành vi nào sau đây?",
+        "options": {
+            "A": "Luôn tìm kiếm thông tin mới từ bên ngoài và chấp nhận rủi ro.",
+            "B": "Thường nghĩ về việc hoàn tất mục tiêu hiện tại hơn là thành tích quá khứ.",
+            "C": "Luôn giữ được sự bình tĩnh trước những khó khăn và tin rằng mình có thể xử lý hiệu quả những sự việc không mong muốn.",
+            "D": "Thích làm các công việc có tính thách thức hay có mức độ khó trung bình trở lên."
+        },
+        "answer": "C",
+        "explanation": "Đặc điểm Hiệu quả cá nhân được thể hiện qua các phát biểu như \"Tôi tin rằng tôi có thể xử lý một cách hiệu quả những sự việc không mong muốn\" và \"Tôi luôn giữ được sự bình tĩnh trước những khó khăn\",."
+    },
+    {
+        "id": 8,
+        "question": "Theo quy trình nhận thức cơ hội khởi nghiệp, việc một nhà sáng lập nhận ra rằng \"nhu cầu cụ thể của thị trường\" có thể được đáp ứng bởi \"các nguồn tài nguyên chưa được khai thác tối ưu\" là bước thứ mấy?",
+        "options": {
+            "A": "Bước 1: Cảm nhận nhu cầu thị trường hay tài nguyên chưa được khai thác tối ưu.",
+            "B": "Bước 2: Nhận diện sự kết nối có thể có giữa nhu cầu và tài nguyên.",
+            "C": "Bước 3: Tạo sự kết nối mới phù hợp nhất giữa nhu cầu và tài nguyên.",
+            "D": "Bước 4: Đánh giá tính khả thi tài chính."
+        },
+        "answer": "B",
+        "explanation": "Bước 2 của quy trình nhận thức cơ hội khởi nghiệp là: Nhận diện sự kết nối có thể có giữa nhu cầu cụ thể của thị trường và các nguồn tài nguyên chưa được khai thác tối ưu."
+    },
+    {
+        "id": 9,
+        "question": "Khi phân tích cơ hội khởi nghiệp, sự gia tăng tầng lớp trung lưu và xu hướng người tiêu dùng ngày càng quan tâm đến các mặt hàng thân thiện với môi trường thuộc nhóm tác lực môi trường nào?",
+        "options": {
+            "A": "Tiến bộ công nghệ.",
+            "B": "Tác lực chính sách và chính trị.",
+            "C": "Tác lực kinh tế (tầng lớp trung lưu) và Tác lực xã hội (quan tâm môi trường).",
+            "D": "Tác lực kinh tế và Tiến bộ công nghệ."
+        },
+        "answer": "C",
+        "explanation": "Mức thu nhập khả dụng (ảnh hưởng đến tầng lớp trung lưu) thuộc Tác lực kinh tế. Xu hướng văn hóa và xã hội (những mối quan tâm của mọi người, ví dụ về môi trường) thuộc Tác lực xã hội,."
+    },
+    {
+        "id": 10,
+        "question": "Mục tiêu quan trọng nhất của việc phân tích 3M (Market – Money – Management) trong giai đoạn đánh giá cơ hội thị trường là gì?",
+        "options": {
+            "A": "Đảm bảo rằng IRR luôn lớn hơn 50%.",
+            "B": "Sàng lọc cơ hội khởi nghiệp bằng cách kiểm tra ba yếu tố thiết yếu: nhu cầu thị trường (Market), khả năng tài chính (Money), và năng lực thực thi (Management).",
+            "C": "Chỉ tập trung vào chi phí cố định và chi phí biến đổi.",
+            "D": "Lựa chọn mô hình kinh doanh phá vỡ (disruptive model)."
+        },
+        "answer": "B",
+        "explanation": "Phân tích 3M là một cách khác để sàng lọc cơ hội khởi nghiệp, tập trung vào ba yếu tố thiết yếu cho việc hình thành một doanh nghiệp: Thị trường, Tiền, và Quản lý,."
+    },
+    {
+        "id": 11,
+        "question": "Khi một đội nhóm khởi nghiệp đã có sẵn trước khi tìm kiếm ý tưởng, và các thành viên làm chung trong một tổ chức thực hiện cùng một chức năng (ví dụ: Marketing), lợi thế và thách thức chính của họ khi bắt đầu khởi nghiệp là gì?",
+        "options": {
+            "A": "Lợi thế: Có đủ chức năng để khởi nghiệp ngay; Thách thức: Thiếu sự hiểu biết về công việc.",
+            "B": "Lợi thế: Dễ dàng nhận ra cơ hội thị trường trong ngành của họ; Thách thức: Phải tìm kiếm thêm người có chức năng khác để mời tham gia đội.",
+            "C": "Lợi thế: Quan hệ gia đình bền vững; Thách thức: Khó huy động vốn.",
+            "D": "Lợi thế: Rủi ro thấp vì có kinh nghiệm; Thách thức: Tính linh hoạt thấp."
+        },
+        "answer": "B",
+        "explanation": "Lợi thế là họ dễ dàng nhận ra được các cơ hội thị trường, ý tưởng kinh doanh ngay trong chính ngành công nghiệp họ đang làm. Thách thức là nếu họ làm cùng một chức năng thì khi khởi nghiệp họ phải tiếp tục tìm kiếm những người có những chức năng khác để mời tham gia đội khởi nghiệp."
+    },
+    {
+        "id": 12,
+        "question": "Theo định nghĩa về khởi nghiệp, Khởi nghiệp được coi là một \"quá trình năng động của tầm nhìn, thay đổi và sáng tạo.\" Điều này ám chỉ điều gì về tính chất của công việc này?",
+        "options": {
+            "A": "Quá trình này chỉ xảy ra một lần duy nhất khi thành lập doanh nghiệp.",
+            "B": "Nhà khởi nghiệp phải liên tục hoàn thiện cái mới được tạo ra đến mức tối ưu về năng suất và giá trị.",
+            "C": "Khởi nghiệp luôn cần một công nghệ đột phá.",
+            "D": "Khởi nghiệp phải luôn gắn liền với việc thu hồi vốn nhanh chóng."
+        },
+        "answer": "B",
+        "explanation": "Quá trình đổi mới (dựa trên nền tảng sáng tạo) là một quá trình biến đổi các ý tưởng mới... và tiếp tục hoàn thiện cái mới đó đến mức tối ưu về năng suất và giá trị, gắn với thực tiễn thương mại. Khởi nghiệp là một quá trình năng động của tầm nhìn, thay đổi và sáng tạo."
+    },
+    {
+        "id": 13,
+        "question": "Trong Giai đoạn 3 của quy trình khởi nghiệp (Xây dựng quá trình bán hàng và phân tích khả thi tài chính), mục tiêu chính của việc ước lượng doanh thu và chi phí là gì?",
+        "options": {
+            "A": "Để xác định giá trị cốt lõi của doanh nghiệp.",
+            "B": "Để có được góc nhìn tổng quan về tính khả thi tổng thể tài chính của toàn bộ kế hoạch khởi nghiệp trong trung và dài hạn.",
+            "C": "Để thiết kế sản phẩm mẫu đầu tiên.",
+            "D": "Để xác định thị trường tiền tiêu."
+        },
+        "answer": "B",
+        "explanation": "Các ước tính về doanh thu và chi phí trong Giai đoạn 3 được phân tích để có góc nhìn tổng quan về toàn bộ dự án khởi nghiệp... từ đó cho thấy được tính khả thi tổng thể tài chính của toàn bộ kế hoạch khởi nghiệp trong trung và dài hạn."
+    },
+    {
+        "id": 14,
+        "question": "Một người được cố vấn (Mentee) cần phải giữ thái độ \"cầu thị\" khi nhận lời khuyên từ Người cố vấn (Mentor). Tại sao việc này lại quan trọng hơn là việc chỉ trích hoặc yêu cầu Mentor đưa ra câu trả lời cho mọi vấn đề?",
+        "options": {
+            "A": "Vì mối quan hệ này là một chiều, Mentor luôn đúng.",
+            "B": "Vì Mentee cần chủ động tiếp nhận lời khuyên và tự nghiên cứu thêm để phát triển tri thức sâu hơn cho bản thân và toàn đội.",
+            "C": "Vì Mentor chỉ quan tâm đến các vấn đề liên quan đến tài chính.",
+            "D": "Vì Mentor sẽ là người xây dựng lịch trình chi tiết cho Mentee."
+        },
+        "answer": "B",
+        "explanation": "Người được cố vấn nên giữ thái độ thoải mái và cầu thị, tiếp nhận lời khuyên của Người cố vấn và chủ động nghiên cứu thêm các tài liệu tham khảo để tìm ra câu trả lời hoặc các thông tin cần thiết. Mentee không nên quá phụ thuộc vào Mentor hoặc tìm kiếm câu trả lời cho tất cả những câu hỏi của mình."
+    },
+    {
+        "id": 15,
+        "question": "Tại sao việc khách hàng có chịu trả tiền cho sản phẩm lại có tầm quan trọng hơn là việc công nghệ có ưu việt hơn không, đặc biệt đối với khởi nghiệp theo hướng \"Công nghệ đẩy\"?",
+        "options": {
+            "A": "Vì công nghệ ưu việt luôn dễ bị sao chép hơn.",
+            "B": "Vì khởi nghiệp thành công đòi hỏi phải tạo ra lợi nhuận và giá trị thương mại, điều này chỉ xảy ra khi khách hàng sẵn sàng chi trả.",
+            "C": "Vì việc sở hữu công nghệ mới không phải là điểm tựa bản thân.",
+            "D": "Vì nhà khởi nghiệp nên dành toàn bộ sự quan tâm cho việc nghiên cứu công nghệ."
+        },
+        "answer": "B",
+        "explanation": "Để khởi nghiệp thành công, việc khách hàng có chịu trả tiền cho sản phẩm có tầm quan trọng hơn là những công nghệ ưu việt. Cơ hội khởi nghiệp là các tình huống mà trong đó sản phẩm/dịch vụ có thể được giới thiệu và được bán ở mức giá cao hơn so với chi phí sản xuất."
+    },
+    {
+        "id": 16,
+        "question": "Khi đánh giá xuất phát điểm cá nhân, việc trả lời câu hỏi \"Trong các công việc đã trải qua, có tồn tại sự thiếu hiệu quả hay 'nỗi đau' nào không?\" nhằm mục đích gì?",
+        "options": {
+            "A": "Phân tích tác lực chính sách.",
+            "B": "Đánh giá kinh nghiệm làm việc để tìm ra cơ hội thị trường kéo.",
+            "C": "Xác định mức độ stress cá nhân.",
+            "D": "Xác định mô hình doanh thu."
+        },
+        "answer": "B",
+        "explanation": "Câu hỏi này nằm trong phần Kinh nghiệm làm việc khi đánh giá tiềm lực bản thân, nhằm tìm kiếm \"sự thiếu hiệu quả hay 'nỗi đau’ nào đang tồn tại\" qua các công việc đã trải qua,. Điều này giúp định hình ý tưởng theo hướng Thị trường kéo (Market-Pull)."
+    },
+    {
+        "id": 17,
+        "question": "Theo các chỉ báo về đặc điểm tâm lý, một nhà khởi nghiệp tiềm năng có điểm số cao ở đặc điểm \"Tính linh hoạt\" (Tính linh hoạt). Điều này được biểu hiện qua hành động nào?",
+        "options": {
+            "A": "Luôn bám chặt các mục tiêu của mình và hoàn thành chúng.",
+            "B": "Thích làm các công việc có tính thách thức.",
+            "C": "Luôn tìm kiếm thông tin mới từ bên ngoài và chấp nhận rủi ro để đạt tính linh hoạt với môi trường.",
+            "D": "Luôn giữ được sự bình tĩnh trước những khó khăn."
+        },
+        "answer": "C",
+        "explanation": "Tính linh hoạt bao gồm việc \"Tôi luôn tìm kiếm thông tin mới từ bên ngoài\" và \"Tôi luôn chấp nhận rủi ro để đạt tính linh hoạt với môi trường\"."
+    },
+    {
+        "id": 18,
+        "question": "Khi tìm kiếm ý tưởng khởi nghiệp, nếu một công ty xác định nhu cầu rất lớn về \"Call Center\" và sau đó sử dụng nền tảng công nghệ thông tin để đưa ra giải pháp, đây là ví dụ về gì?",
+        "options": {
+            "A": "Chỉ là Thị trường kéo.",
+            "B": "Chỉ là Công nghệ đẩy.",
+            "C": "Sự kết hợp của Thị trường kéo và Công nghệ đẩy.",
+            "D": "Khởi nghiệp không có lợi nhuận."
+        },
+        "answer": "C",
+        "explanation": "Nhu cầu về các Call Center vô cùng lớn xuất phát từ Thị trường kéo, trong khi đó, giải pháp dựa trên nền tảng công nghệ mới là Công nghệ đẩy,."
+    },
+    {
+        "id": 19,
+        "question": "Trong giai đoạn \"Thu hẹp\" của quá trình phân khúc thị trường, một trong bảy tiêu chí quan trọng để loại bỏ các ý tưởng thị trường là gì?",
+        "options": {
+            "A": "Thị trường đó có TAM trên 1 tỷ USD không?",
+            "B": "Có đối thủ nào đủ mạnh ngăn cản gia nhập không?",
+            "C": "Khách hàng có thích thú với sản phẩm mẫu không?",
+            "D": "Công nghệ có phải là mới nhất không?"
+        },
+        "answer": "B",
+        "explanation": "Tiêu chí thứ 5 để thu hẹp danh sách các thị trường mục tiêu là: \"Có đối thủ nào đủ mạnh ngăn cản gia nhập không?\"."
+    },
+    {
+        "id": 20,
+        "question": "Nếu một nhà khởi nghiệp chưa có kinh nghiệm khởi nghiệp chính thức, quy trình khởi nghiệp tinh gọn đề xuất bắt đầu bằng bước nào?",
+        "options": {
+            "A": "Trực tiếp xây dựng Sản phẩm khả dụng tối thiểu (MVP).",
+            "B": "Đánh giá xuất phát điểm cá nhân (kiến thức, năng lực, kinh nghiệm, đam mê).",
+            "C": "Phân tích khả thi tài chính (NPV, IRR).",
+            "D": "Lựa chọn mô hình kinh doanh phá vỡ."
+        },
+        "answer": "B",
+        "explanation": "Quy trình khởi nghiệp đổi mới sáng tạo tinh gọn đề xuất bắt đầu bằng việc Đánh giá xuất phát điểm cá nhân để tìm ý tưởng khởi nghiệp,."
+    },
+    {
+        "id": 21,
+        "question": "Trong Giai đoạn 4 của quy trình khởi nghiệp, Mô hình Kinh doanh (Business Model) có vai trò gì?",
+        "options": {
+            "A": "Là bản kế hoạch chi tiết để tuyển dụng nhân viên.",
+            "B": "Là mô hình đúc kết lại toàn bộ các hoạt động, thể hiện bức tranh khái quát chung cho toàn bộ các hoạt động và khởi tạo giá trị của doanh nghiệp.",
+            "C": "Là tài liệu trình bày cho khách hàng để thu hút họ mua sản phẩm.",
+            "D": "Là công cụ để ước tính LTV và COCA."
+        },
+        "answer": "B",
+        "explanation": "Mô hình kinh doanh là mô hình đúc kết lại toàn bộ các hoạt động của doanh nghiệp, cho thấy mối liên hệ giữa các hoạt động chức năng trên một góc nhìn tổng thể, thể hiện bức tranh khái quát chung cho toàn bộ các hoạt động và khởi tạo giá trị của doanh nghiệp.\n\n***\n\n### PHẦN II: THỊ TRƯỜNG, SẢN PHẨM & CẠNH TRANH (LO2)"
+    },
+    {
+        "id": 22,
+        "question": "Khi một công ty đã chiếm lĩnh được Thị trường tiền tiêu (beachhead market), họ sẽ sử dụng chiến lược gì để chiếm lĩnh các thị trường lân cận (thị trường tiếp theo)?",
+        "options": {
+            "A": "Bán cùng một sản phẩm cơ bản cho khách hàng mục tiêu mới (có thể có thay đổi).",
+            "B": "Giảm giá sản phẩm cốt lõi xuống mức thấp nhất.",
+            "C": "Chuyển sang mô hình kinh doanh quảng cáo.",
+            "D": "Chỉ tập trung vào việc tăng LTV và giảm COCA."
+        },
+        "answer": "A",
+        "explanation": "Thị trường tiền tiêu là thị trường mà khi đã chiếm lĩnh được ưu thế, doanh nghiệp có sức mạnh để chiếm lĩnh được các thị trường lân cận bằng cách bán sản phẩm cơ bản của bạn (có thể có thay đổi) cho khách hàng mục tiêu mới,."
+    },
+    {
+        "id": 23,
+        "question": "Trong quá trình phác họa Khách hàng điển hình (Persona), tại sao việc xác định **thứ tự ưu tiên** (có gán trọng số 100%) của các tiêu chí mua hàng lại là chi tiết quan trọng nhất?",
+        "options": {
+            "A": "Để xác định giá bán cuối cùng cho sản phẩm.",
+            "B": "Để đảm bảo mọi người trong doanh nghiệp nắm được nhu cầu cơ bản của khách hàng.",
+            "C": "Để xác định các trục X và Y trong Biểu đồ vị thế cạnh tranh, từ đó định vị lợi thế khác biệt.",
+            "D": "Để ước tính tổng số người dùng cuối trong toàn phân khúc thị trường (TAM)."
+        },
+        "answer": "C",
+        "explanation": "Các ưu tiên mua hàng của người dùng cuối (gán trọng số cộng lại là 100%) được sử dụng để xác định trục X và trục Y trong Biểu đồ vị thế cạnh tranh,."
+    },
+    {
+        "id": 24,
+        "question": "Khi ước tính Tổng thị trường khả dụng (TAM) theo phương pháp \"Phân tích từ trên xuống\" (Top-down Analysis), nhà khởi nghiệp cần dựa vào nguồn thông tin nào?",
+        "options": {
+            "A": "Danh sách khách hàng và nguồn thông tin từ hiệp hội thương mại.",
+            "B": "Nghiên cứu thị trường thứ cấp thông qua tham khảo báo cáo phân tích thị trường để xác định số lượng người dùng cuối.",
+            "C": "Kết quả phỏng vấn trực tiếp khách hàng về ngân sách chi tiêu.",
+            "D": "Bảng tính chi phí cố định và chi phí biến đổi."
+        },
+        "answer": "B",
+        "explanation": "Phân tích từ trên xuống bắt đầu bằng cách sử dụng nghiên cứu thị trường thứ cấp thông qua việc tham khảo báo cáo phân tích thị trường để xác định có bao nhiêu người dùng cuối đáp ứng các đặc điểm khác nhau."
+    },
+    {
+        "id": 25,
+        "question": "Một startup đạt được TAM 40 triệu USD cho thị trường tiền tiêu. Điều này cho thấy điều gì theo hướng dẫn khởi nghiệp tinh gọn?",
+        "options": {
+            "A": "Thị trường quá lớn và không phù hợp với khởi nghiệp.",
+            "B": "Thị trường quá nhỏ và nên chuyển sang thị trường khác.",
+            "C": "Quy mô thị trường hợp lý (20 – 100 triệu USD) và thích hợp cho việc truyền miệng.",
+            "D": "Công ty cần ngay lập tức áp dụng kênh bán hàng bên trong văn phòng (Inside Sales)."
+        },
+        "answer": "C",
+        "explanation": "TAM trong khoảng 20 - 100 triệu USD là phù hợp cho thị trường tiền tiêu và thích hợp cho việc truyền miệng,."
+    },
+    {
+        "id": 26,
+        "question": "Mục tiêu chính của việc xây dựng \"Tình huống sử dụng vòng đời sản phẩm\" (Product Life Cycle Use Case) là gì?",
+        "options": {
+            "A": "Để xác định ai là người mua chính (Primary Economic Buyer).",
+            "B": "Để vạch ra quy trình từ đầu đến cuối cho khách hàng điển hình, bao gồm cả việc biết đến, tiếp cận, quyết định mua, thanh toán và sử dụng sản phẩm.",
+            "C": "Để tính toán chi phí sản xuất một đơn vị sản phẩm (Gross Margin).",
+            "D": "Để lượng hóa đề xuất giá trị sản phẩm."
+        },
+        "answer": "B",
+        "explanation": "Xây dựng tình huống sử dụng vòng đời sản phẩm là vạch ra quy trình từ đầu đến cuối cho khách hàng điển hình và sau đó kiểm tra xem nó có phù hợp với các khách hàng tiềm năng khác hay không,."
+    },
+    {
+        "id": 27,
+        "question": "Một nhà khởi nghiệp đã xác định vấn đề của khách hàng (Problem/Need). Bước tiếp theo trong Design Thinking là \"Tìm ý tưởng\" (Ideate). Yếu tố quan trọng nhất cần được thúc đẩy trong giai đoạn này là gì?",
+        "options": {
+            "A": "Lựa chọn ý tưởng có chi phí thấp nhất.",
+            "B": "Không phê phán, tất cả các ý tưởng đều đáng giá để xem xét.",
+            "C": "Tập trung vào việc tạo ra sản phẩm mẫu vật lý ngay lập tức.",
+            "D": "Áp dụng ngay công nghệ đẩy (Technology-Push)."
+        },
+        "answer": "B",
+        "explanation": "Giai đoạn \"Tìm ý tưởng\" (Ideate) là giai đoạn thúc đẩy sự sáng tạo, và điều quan trọng là **không phê phán**, tất cả các ý tưởng đều đáng giá để xem xét."
+    },
+    {
+        "id": 28,
+        "question": "Tại sao việc \"Lượng hóa đề xuất giá trị sản phẩm\" (Quantifying Value Proposition) lại được ưu tiên hơn việc chỉ đi vào chi tiết công nghệ, tính năng của sản phẩm?",
+        "options": {
+            "A": "Vì nó mô tả trạng thái hiện tại và trạng thái khả dĩ (sau khi dùng sản phẩm) theo ngôn ngữ và cách thức **định lượng** của khách hàng (thời gian, chi phí, chất lượng).",
+            "B": "Vì nó giúp xác định mô hình doanh thu.",
+            "C": "Vì nó là bước cuối cùng trước khi gọi vốn.",
+            "D": "Vì nó giúp thiết lập khung giá ban đầu dựa trên chi phí."
+        },
+        "answer": "A",
+        "explanation": "Lượng hóa đề xuất giá trị sản phẩm tập trung vào những điều khách hàng muốn... và mô tả trạng thái hiện tại và trạng thái khả dĩ khi sử dụng sản phẩm theo ngôn ngữ và cách thức của khách hàng một cách định lượng,."
+    },
+    {
+        "id": 29,
+        "question": "Mục đích chính của việc xây dựng Sản phẩm khả dụng tối thiểu (MVP) là gì, theo quy trình khởi nghiệp tinh gọn?",
+        "options": {
+            "A": "Để kiểm tra toàn bộ khả năng sinh lời trong 5 năm.",
+            "B": "Để kiểm tra xem người dùng cuối có **nhận được giá trị** và liệu khách hàng có **sẵn sàng trả tiền** hay không.",
+            "C": "Để đạt được sự đồng thuận của nhà đầu tư.",
+            "D": "Để xác định các đối tác chính (Key Partners)."
+        },
+        "answer": "B",
+        "explanation": "Sản phẩm khả dụng tối thiểu (MPV) có thể được sử dụng để kiểm tra xem người dùng cuối có nhận được giá trị từ sản phẩm của nhà khởi nghiệp hay không và liệu khách hàng có sẵn sàng trả tiền hay không."
+    },
+    {
+        "id": 30,
+        "question": "Trong mô hình \"Năm áp lực cạnh tranh\" của Michael Porter, \"Tính kinh tế nhờ quy mô\" (Economies of scale) hoạt động như một rào cản ngăn chặn áp lực nào?",
+        "options": {
+            "A": "Quyền thương lượng của người mua.",
+            "B": "Mối đe dọa từ các sản phẩm thay thế.",
+            "C": "Cạnh tranh giữa các doanh nghiệp hiện tại.",
+            "D": "Mối đe dọa từ những người mới vào ngành."
+        },
+        "answer": "D",
+        "explanation": "Tính kinh tế nhờ quy mô là một trong các yếu tố thuộc mối đe dọa từ những người mới vào ngành."
+    },
+    {
+        "id": 31,
+        "question": "Nếu một công ty khởi nghiệp tạo ra một sản phẩm mà chi phí chuyển đổi (switching cost) của khách hàng sang đối thủ cạnh tranh là RẤT CAO, điều này sẽ ảnh hưởng như thế nào đến áp lực cạnh tranh trong ngành?",
+        "options": {
+            "A": "Làm tăng quyền thương lượng của người mua.",
+            "B": "Làm giảm mối đe dọa từ các sản phẩm thay thế.",
+            "C": "Làm giảm cạnh tranh giữa các doanh nghiệp hiện tại.",
+            "D": "Làm tăng mối đe dọa từ những người mới vào ngành."
+        },
+        "answer": "B",
+        "explanation": "Chi phí chuyển đổi của khách hàng là yếu tố ảnh hưởng đến Mối đe dọa từ các sản phẩm thay thế. Chi phí chuyển đổi cao khiến người mua ít xu hướng có nhiều lựa chọn thay thế."
+    },
+    {
+        "id": 32,
+        "question": "Giá trị cốt lõi của doanh nghiệp phải thỏa mãn ba yếu tố: Duy nhất, Quan trọng, và Phát triển theo thời gian. Tại sao yếu tố \"Phát triển theo thời gian\" lại là điều kiện quan trọng để tạo lợi thế bền vững?",
+        "options": {
+            "A": "Nó đảm bảo rằng giá trị cốt lõi này rất khó để các đối thủ cạnh tranh sao chép hoặc bắt kịp.",
+            "B": "Nó chỉ ra rằng doanh nghiệp cần phải thay đổi mô hình kinh doanh sau mỗi 5 năm.",
+            "C": "Nó giúp xác định thị trường tiền tiêu.",
+            "D": "Nó là thước đo duy nhất để tính toán NPV."
+        },
+        "answer": "A",
+        "explanation": "Giá trị cốt lõi là tri thức kỹ năng mà nhà khởi nghiệp có được và giúp nhà khởi nghiệp có thể tạo sản phẩm tốt hơn các đối thủ khác và rất khó để sao chép. Yếu tố \"Phát triển theo thời gian\" là cần thiết để giữ vững lợi thế này (tham khảo logic từ Bảng 35)."
+    },
+    {
+        "id": 33,
+        "question": "Khi tiến hành phân tích SWOT, việc xác định \"các công nghệ mới nổi\" có thể tạo ra sản phẩm thay thế cho ngành của bạn thuộc nhóm yếu tố nào?",
+        "options": {
+            "A": "Điểm mạnh (Strength).",
+            "B": "Điểm yếu (Weakness).",
+            "C": "Cơ hội (Opportunity).",
+            "D": "Mối đe dọa (Threat)."
+        },
+        "answer": "D",
+        "explanation": "Các yếu tố bên ngoài bao gồm \"cơ hội\" và \"mối đe dọa\". \"Thay đổi công nghệ sẽ đe dọa đến vị trí của bạn trong ngành không?\" là một câu hỏi thuộc nhóm Nguy cơ."
+    },
+    {
+        "id": 34,
+        "question": "Một công ty khởi nghiệp muốn định vị sản phẩm của mình trên Biểu đồ vị thế cạnh tranh. Khách hàng điển hình của họ đặt ưu tiên số 1 là \"Tốc độ giao hàng\" và ưu tiên số 2 là \"Giá cả hợp lý\". Công ty nên định vị mình ở góc phần tư nào trên biểu đồ để tạo ra sự khác biệt độc đáo so với các đối thủ hiện tại (nếu đa số đối thủ hiện tại nằm ở góc Tốc độ thấp/Giá cao)?",
+        "options": {
+            "A": "Tốc độ thấp, Giá cao.",
+            "B": "Tốc độ thấp, Giá thấp.",
+            "C": "Tốc độ cao, Giá hợp lý (tạo lợi thế rõ ràng theo ưu tiên khách hàng).",
+            "D": "Cả Tốc độ và Giá đều thấp."
+        },
+        "answer": "C",
+        "explanation": "Trục Y (đứng) thể hiện ưu tiên số một và trục X (ngang) thể hiện ưu tiên số hai của chân dung người dùng cuối. Để tạo lợi thế khác biệt, công ty nên định vị mình ở vị trí đáp ứng cao các ưu tiên quan trọng nhất của khách hàng."
+    },
+    {
+        "id": 35,
+        "question": "Một Tuyên bố về Vấn đề (Point Of View - POV) trong Design Thinking được yêu cầu phải có 3 nội dung: Ai, Nhu cầu tiềm ẩn, và Tại sao điều này lại sâu sắc. Mục đích của POV là gì?",
+        "options": {
+            "A": "Thúc đẩy sự sáng tạo và không phê phán ý tưởng.",
+            "B": "Đưa ra một câu mô tả ngắn những gì công ty làm.",
+            "C": "Phân tích chi phí cố định và biến đổi.",
+            "D": "Xác định vấn đề trọng tâm dựa trên góc nhìn của người dùng để làm cơ sở cho giải pháp (Solution)."
+        },
+        "answer": "D",
+        "explanation": "POV giúp xác định vấn đề trọng tâm (dưới góc độ người dùng), từ đó đưa ra Giải pháp (Solution) tương ứng,."
+    },
+    {
+        "id": 36,
+        "question": "Để làm rõ hơn về chân dung người dùng cuối, một nhà khởi nghiệp mô tả một ngày trong đời của khách hàng mục tiêu, bao gồm những công việc họ làm, công việc nào là thói quen và công việc nào đòi hỏi nhiều nỗ lực nhất. Mục đích của việc này là gì?",
+        "options": {
+            "A": "Để xác định tổng ngân sách sẵn có của khách hàng.",
+            "B": "Để hiểu rõ hành vi và lối sống, từ đó tìm ra các điểm \"nỗi đau\" (pains) và động lực (motivations) chưa được giải quyết.",
+            "C": "Để thiết lập khung giá ban đầu.",
+            "D": "Để xác định các Đối tác chính."
+        },
+        "answer": "B",
+        "explanation": "Mô tả Thói quen sinh hoạt hàng ngày (một ngày trong đời của người dùng cuối) giúp hiểu rõ những gì diễn ra trong đầu người này, bao gồm công việc đòi hỏi nhiều nỗ lực nhất (tức là \"nỗi đau\"),,."
+    },
+    {
+        "id": 37,
+        "question": "Khi tính toán TAM, nhà khởi nghiệp phải ước tính cả số lượng người dùng cuối và doanh thu hàng năm mà mỗi người dùng cuối mang lại. Tại sao cần ước tính doanh thu hàng năm dựa trên \"Ngân sách sẵn có\" của khách hàng?",
+        "options": {
+            "A": "Để đảm bảo rằng chi phí để có được một khách hàng (COCA) thấp hơn lợi nhuận gộp.",
+            "B": "Để định giá sản phẩm dựa trên khả năng chi tiêu thực tế của khách hàng, thay vì chỉ dựa trên chi phí sản xuất.",
+            "C": "Để xác định ai là người có quyền phủ quyết (Veto Power).",
+            "D": "Để xác định thị trường tiếp theo (Next Market)."
+        },
+        "answer": "B",
+        "explanation": "Một trong ba cách xác định doanh thu hàng năm là dựa vào Ngân sách sẵn có cho việc chi tiêu của khách hàng, điều này giúp xác định khách hàng sẵn sàng trả bao nhiêu tiền cho sản phẩm của bạn."
+    },
+    {
+        "id": 38,
+        "question": "Trong Phân tích 5 áp lực cạnh tranh, yếu tố nào sau đây là chỉ báo cho thấy quyền thương lượng của người mua là MẠNH?",
+        "options": {
+            "A": "Số lượng nhà cung cấp ít hơn so với số lượng người mua.",
+            "B": "Chi phí chuyển đổi sang sản phẩm khác thấp.",
+            "C": "Khác biệt hóa sản phẩm cao.",
+            "D": "Chi phí cố định thấp."
+        },
+        "answer": "B",
+        "explanation": "Quyền thương lượng của người mua mạnh khi: Số lượng người mua ít hơn so với người cung cấp, Chi phí của người mua (chi phí chuyển đổi) thấp, Mức độ tiêu chuẩn hóa các sản phẩm của nhà cung cấp."
+    },
+    {
+        "id": 39,
+        "question": "Nếu phân tích chỉ ra rằng một thị trường tiềm năng có TAM rất lớn (ví dụ: 5 tỷ USD) nhưng không có đối thủ cạnh tranh nào đủ mạnh ngăn cản gia nhập, tại sao nhà khởi nghiệp vẫn nên thận trọng khi lựa chọn thị trường này?",
+        "options": {
+            "A": "Vì thị trường quá lớn nên không phù hợp với khởi nghiệp tinh gọn.",
+            "B": "Vì thị trường có thể không phù hợp với đam mê của nhóm sáng lập.",
+            "C": "Vì thiếu cạnh tranh có thể là dấu hiệu cho thấy khách hàng không có nhu cầu cấp thiết (compelling reason to buy) hoặc có rào cản công nghệ/chính sách lớn khác.",
+            "D": "Vì khả năng sinh lời (profit margin) luôn thấp trong thị trường lớn."
+        },
+        "answer": "C",
+        "explanation": "Trong các tiêu chí thu hẹp danh sách thị trường mục tiêu, cần xem xét Khách hàng có lý do thích đáng để mua hàng không. Nếu không có cạnh tranh, có thể nhu cầu chưa đủ cấp thiết."
+    },
+    {
+        "id": 40,
+        "question": "Khi thiết kế Sản phẩm khả dụng tối thiểu (MVP), sau khi đã hiểu nhu cầu kinh doanh và tìm cơ hội, bước \"Quyết định những tính năng để xây dựng\" sử dụng Ma trận ưu tiên. Ma trận này giúp xác định điều gì?",
+        "options": {
+            "A": "Giá trị hiện tại ròng (NPV) của từng tính năng.",
+            "B": "Nơi nhà khởi nghiệp có thể tạo ảnh hưởng nhiều nhất (mức độ ảnh hưởng) liên quan đến tính cấp bách của tính năng.",
+            "C": "LTV của mỗi khách hàng mới.",
+            "D": "Tỉ lệ duy trì khách hàng."
+        },
+        "answer": "B",
+        "explanation": "Ma trận ưu tiên (priority matrix) giúp sắp xếp thứ tự ưu tiên các tính năng, xác định nơi mà nhà khởi nghiệp có thể tạo ảnh hưởng nhiều nhất với sản phẩm của mình liên quan đến tính cấp bách của tính năng."
+    },
+    {
+        "id": 41,
+        "question": "Trong Design Thinking, giai đoạn \"Tạo mẫu\" (Prototype) không chỉ để kiểm tra chức năng sản phẩm, mà còn phục vụ mục đích \"Đạt được sự đồng cảm với người dùng\". Điều này có ý nghĩa gì?",
+        "options": {
+            "A": "Giúp phát triển nhiều ý tưởng để kiểm tra song song.",
+            "B": "Giúp hiểu sâu hơn về người dùng và không gian thiết kế.",
+            "C": "Đảm bảo sản phẩm mẫu là phiên bản hoàn chỉnh.",
+            "D": "Truyền cảm hứng cho nhà đầu tư bằng cách thể hiện tầm nhìn."
+        },
+        "answer": "B",
+        "explanation": "Quá trình tạo mẫu được thực hiện để đạt được sự đồng cảm với người dùng, giúp hiểu sâu hơn về người dùng và không gian thiết kế."
+    },
+    {
+        "id": 42,
+        "question": "Phân khúc thị trường tiền tiêu (Beachhead Market) phải đáp ứng ba điều kiện quan trọng để được coi là \"đồng nhất\". Điều kiện nào liên quan trực tiếp đến hiệu quả của đội ngũ bán hàng?",
+        "options": {
+            "A": "Khách hàng có mua các sản phẩm tương tự nhau không?",
+            "B": "Đội ngũ bán hàng có thể chuyển từ việc bán cho khách hàng này sang khách hàng khác mà vẫn hiệu quả không?",
+            "C": "Thị trường có tồn tại \"quảng cáo truyền miệng\" không?",
+            "D": "Thị trường có phù hợp với đam mê của nhóm sáng lập không?"
+        },
+        "answer": "B",
+        "explanation": "Một trong ba câu hỏi để phân đoạn trong thị trường tiền tiêu là: \"Đội ngũ bán hàng có thể chuyển từ việc bán cho khách hàng này sang khách hàng khác mà vẫn hiệu quả không?\".\n\n***\n\n### PHẦN III: MÔ HÌNH KINH DOANH & TÀI CHÍNH (LO3)"
+    },
+    {
+        "id": 43,
+        "question": "Theo Khung Mô hình Kinh doanh (BMC), tuyên bố giá trị (Value Proposition) được hỗ trợ bởi những thành phần nào trong nhóm \"Vận hành\" (Operation)?",
+        "options": {
+            "A": "Phân khúc khách hàng, Mối quan hệ khách hàng.",
+            "B": "Dòng doanh thu, Cơ cấu chi phí.",
+            "C": "Các hoạt động chính, Các nguồn lực chính, Các đối tác chính.",
+            "D": "Kênh phân phối, Phân tích cạnh tranh."
+        },
+        "answer": "C",
+        "explanation": "Trong BMC, các thành phần \"Các hoạt động chính\", \"Các nguồn lực chính\" và \"Các đối tác chính\" đều cần thiết để thực hiện Tuyên bố giá trị,,."
+    },
+    {
+        "id": 44,
+        "question": "Mô hình kinh doanh phá vỡ thị trường bình dân (Low-end market disruption) có đặc điểm nổi bật nhất là gì, xét về mặt giá trị cung cấp cho khách hàng?",
+        "options": {
+            "A": "Nhắm vào các thị trường hoàn toàn mới chưa được khai thác.",
+            "B": "Cung cấp một cách thức đơn giản hơn, với chi phí thấp hơn và thuận tiện hơn để hoàn thành những công việc hàng ngày.",
+            "C": "Chỉ tập trung vào chi phí cố định thấp.",
+            "D": "Cung cấp hàng hóa/dịch vụ phức tạp với giá cao."
+        },
+        "answer": "B",
+        "explanation": "Mô hình đột phá thị trường bình dân là mô hình cung cấp một cách thức đơn giản hơn, với chi phí thấp hơn và thuận tiện hơn để hoàn thành những công việc hàng ngày."
+    },
+    {
+        "id": 45,
+        "question": "Một nhà khởi nghiệp quyết định mô hình doanh thu dựa trên \"Phí thuê bao dịch vụ\" (Subscription). Theo BMC, mô hình này chủ yếu ảnh hưởng đến mối quan tâm nào của yếu tố \"Khách hàng\" (Customer)?",
+        "options": {
+            "A": "Quá trình có được khách hàng trả tiền.",
+            "B": "Khách hàng thích trả tiền một lần hay trả nhiều lần.",
+            "C": "Rủi ro mà họ không nhận được giá trị như họ mong muốn.",
+            "D": "Đối thủ cạnh tranh đang sử dụng mô hình nào."
+        },
+        "answer": "B",
+        "explanation": "Khi lựa chọn mô hình doanh thu, nhà khởi nghiệp cần quan sát đơn vị ra quyết định mua hàng, bao gồm việc: \"Người mua thích trả tiền một lần hay trả nhiều lần?\",. Mô hình thuê bao (Subscription) là hình thức trả phí nhiều lần."
+    },
+    {
+        "id": 46,
+        "question": "Khi định giá sản phẩm, tại sao các nhà khởi nghiệp nên định giá cao cho nhóm \"Những tín đồ công nghệ\" (technological enthusiasts) và \"Những người tiếp nhận sớm\" (early adopters)?",
+        "options": {
+            "A": "Vì họ không nhạy cảm về giá và kỳ vọng nhận được sự quan tâm nhiều hơn, dịch vụ bổ sung, và cảm giác đặc biệt khi là người tiên phong.",
+            "B": "Vì họ là nhóm giúp doanh nghiệp xây dựng được quy mô lớn.",
+            "C": "Vì họ là nhóm giúp doanh nghiệp đạt được thời gian hoàn vốn (PP) nhanh nhất.",
+            "D": "Vì họ là những người \"bảo thủ\" (laggards) nên cần thuyết phục bằng giá cao."
+        },
+        "answer": "A",
+        "explanation": "Những tín đồ công nghệ và những người tiếp nhận sớm là những người không nhạy cảm về giá và kỳ vọng có được sự quan tâm nhiều hơn và dịch vụ bổ sung, cảm giác đặc biệt,."
+    },
+    {
+        "id": 47,
+        "question": "Chỉ số nào sau đây được sử dụng để đánh giá tính khả thi tài chính tổng thể của một dự án, bằng cách chiết khấu toàn bộ dòng tiền về giá trị hiện tại ròng và phải đạt **lớn hơn hoặc bằng 0** để được coi là khả thi?",
+        "options": {
+            "A": "Chi phí để có được một khách hàng (COCA).",
+            "B": "Giá trị trọn đời của một khách hàng (LTV).",
+            "C": "Giá trị hiện tại ròng (NPV).",
+            "D": "Suất thu lợi nội tại (IRR)."
+        },
+        "answer": "C",
+        "explanation": "NPV là chỉ số giá trị hiện tại ròng, được tính bằng cách lấy tổng giá trị hiện tại (chiết khấu) của toàn bộ dòng tiền của dự án. Đối với NPV, nếu $NPV \\ge 0$, dự án khả thi về mặt tài chính."
+    },
+    {
+        "id": 48,
+        "question": "Nếu một doanh nghiệp có tỉ lệ **LTV:COCA = 1.5:1**, điều này báo hiệu điều gì theo quan điểm của nhà đầu tư mạo hiểm?",
+        "options": {
+            "A": "Dự án đang rất hấp dẫn và có tính ổn định cao.",
+            "B": "Chi phí để có được khách hàng quá cao so với lợi nhuận gộp mà họ mang lại, và cần điều chỉnh lại mô hình kinh doanh hoặc chi phí marketing.",
+            "C": "Doanh nghiệp cần phải tăng giá cho nhóm chấp nhận sớm (early majority).",
+            "D": "Dự án có thời gian hoàn vốn (PP) ngắn."
+        },
+        "answer": "B",
+        "explanation": "Tỉ lệ LTV:COCA nên là 3:1 hoặc cao hơn để doanh nghiệp được coi là hấp dẫn,. Tỉ lệ 1.5:1 cho thấy chi phí có được khách hàng đang quá cao so với lợi nhuận tiềm năng từ họ."
+    },
+    {
+        "id": 49,
+        "question": "Khi tính toán Chi phí để có được một khách hàng (COCA), nếu một công ty có **Chi phí hỗ trợ khách hàng đã có** (IBSE) tăng lên, điều này ảnh hưởng như thế nào đến chỉ số COCA?",
+        "options": {
+            "A": "COCA tăng vì tổng chi phí tăng.",
+            "B": "COCA giảm vì IBSE bị trừ khỏi tổng chi phí tiếp thị và bán hàng để chỉ tính chi phí dành cho khách hàng *mới*.",
+            "C": "COCA không đổi vì IBSE không liên quan đến việc thu hút khách hàng mới.",
+            "D": "COCA trở nên vô hạn."
+        },
+        "answer": "B",
+        "explanation": "Công thức tính COCA là $\\text{COCA}(t) = (\\text{TMSE}(t) – \\text{IBSE}(t))/\\text{NC}(t)$, trong đó IBSE (Chi phí hỗ trợ khách hàng đã có) được trừ ra khỏi Tổng chi phí tiếp thị và bán hàng,."
+    },
+    {
+        "id": 50,
+        "question": "Trong Khung tuyên bố giá trị (Value Proposition Canvas), \"Các sản phẩm\" (Products) mà doanh nghiệp cung cấp được ánh xạ (map) trực tiếp đến yếu tố nào trong Hồ sơ khách hàng (Customer Profile)?",
+        "options": {
+            "A": "Công việc khách hàng cần làm (Customer Jobs).",
+            "B": "Nỗi đau (Pains).",
+            "C": "Lợi ích (Gains).",
+            "D": "Cả A, B, C đều đúng (Sản phẩm thỏa mãn các nhu cầu chức năng, xã hội, cảm xúc)."
+        },
+        "answer": "D",
+        "explanation": "Các sản phẩm thỏa mãn các nhu cầu của khách hàng về chức năng, xã hội, cảm xúc hay đơn giản chỉ là các nhu cầu cơ bản (Công việc khách hàng cần làm, Lợi ích, Nỗi đau),."
+    },
+    {
+        "id": 51,
+        "question": "Nếu một dự án có Suất thu lợi nội tại (IRR) là 15% và suất sinh lợi yêu cầu (required rate of return) là 12%, kết luận nào sau đây là đúng?",
+        "options": {
+            "A": "Dự án không khả thi vì IRR > r.",
+            "B": "Dự án khả thi vì IRR > r (IRR 15% > 12%).",
+            "C": "Dự án sẽ có thời gian hoàn vốn (PP) rất dài.",
+            "D": "Giá trị hiện tại ròng (NPV) của dự án là âm."
+        },
+        "answer": "B",
+        "explanation": "Đối với IRR, nếu giá trị $\\text{IRR} \\ge$ giá trị suất chiết khấu (suất sinh lợi yêu cầu) $\\text{r}$, cơ hội khởi nghiệp được đánh giá khả thi."
+    },
+    {
+        "id": 52,
+        "question": "Khi phân tích khả thi tài chính, việc tính toán \"Chi phí chìm\" (sunk costs) có thể dẫn đến nhầm lẫn nào nếu không được xử lý đúng cách?",
+        "options": {
+            "A": "Chi phí chìm có thể được tính vào chi phí cố định hàng năm.",
+            "B": "Chi phí chìm là chi phí đã xảy ra và không thể thu hồi, nên không được đưa vào quyết định đầu tư tương lai.",
+            "C": "Chi phí chìm là chi phí cơ hội bị mất.",
+            "D": "Chi phí chìm phải được khấu trừ khỏi tổng doanh thu."
+        },
+        "answer": "B",
+        "explanation": "Cần chú ý đến chi phí chìm vì rất có thể dẫn đến nhầm lẫn khi xử lý các loại chi phí này. Chi phí chìm là chi phí đã xảy ra trong quá khứ và không liên quan đến quyết định đầu tư trong tương lai."
+    },
+    {
+        "id": 53,
+        "question": "Một nhà khởi nghiệp quyết định sử dụng \"Dạng thức dịch chuyển\" (shift patterns) cho mô hình kinh doanh đã cũ của mình. Mục tiêu của hành động này là gì?",
+        "options": {
+            "A": "Khởi tạo một thị trường hoàn toàn mới.",
+            "B": "Cải thiện đáng kể mô hình kinh doanh đã hình thành nhưng đang suy thoái để nó trở nên cạnh tranh hơn.",
+            "C": "Chỉ tập trung vào việc bình dân hóa khả năng tiếp cận các hàng hóa/dịch vụ.",
+            "D": "Loại bỏ tất cả các đối tác chính."
+        },
+        "answer": "B",
+        "explanation": "Dạng thức dịch chuyển (shift patterns) giúp cải thiện đáng kể một mô hình kinh doanh đã được hình thành nhưng đang suy thoái để nó trở nên cạnh tranh hơn."
+    },
+    {
+        "id": 54,
+        "question": "Việc định giá dựa trên \"giá trị sản phẩm mang lại cho khách hàng\" thay vì dựa trên chi phí (cost-based pricing) có ý nghĩa gì đối với khả năng sinh lời của doanh nghiệp?",
+        "options": {
+            "A": "Đảm bảo lợi nhuận gộp (Gross margin) luôn ở mức thấp.",
+            "B": "Cho phép doanh nghiệp có thể tăng giá bán cao hơn nhiều so với chi phí sản xuất nếu giá trị cung cấp cho khách hàng là lớn, tối đa hóa lợi nhuận.",
+            "C": "Luôn phải giảm giá cho khách hàng tiếp nhận sớm.",
+            "D": "Bắt buộc phải có mô hình doanh thu thuê bao."
+        },
+        "answer": "B",
+        "explanation": "Nên định giá dựa trên giá trị sản phẩm của bạn mang lại cho khách hàng, không nên dựa vào chi phí. Điều này giúp tối đa hóa lợi nhuận nếu giá trị sản phẩm mang lại là cao."
+    },
+    {
+        "id": 55,
+        "question": "Trong Khung mô hình kinh doanh, nếu công ty có Tuyên bố giá trị mạnh mẽ, yếu tố nào trong Cơ cấu chi phí (Cost Structure) có thể tăng cao nhưng vẫn được chấp nhận?",
+        "options": {
+            "A": "Chi phí cố định cho nhân sự quản lý.",
+            "B": "Chi phí nghiên cứu và phát triển (R&D) và chi phí tiếp thị (Marketing) để tạo ra sự khác biệt/giá trị độc đáo.",
+            "C": "Chi phí của các đối tác chính.",
+            "D": "Chi phí cho người có quyền phủ quyết."
+        },
+        "answer": "B",
+        "explanation": "Mô hình kinh doanh phá vỡ/sáng tạo đòi hỏi R&D lớn hơn, và chi phí tiếp thị cũng cần cao để thu hút khách hàng mới và chứng minh giá trị. Chi phí này giúp tạo ra tuyên bố giá trị độc đáo (sự khác biệt) so với đối thủ."
+    },
+    {
+        "id": 56,
+        "question": "Trong Khung tuyên bố giá trị (Value Proposition Canvas), việc mô tả \"Giải pháp giảm nỗi đau\" (Pain Relievers) nhằm mục đích gì?",
+        "options": {
+            "A": "Để mô tả cách các sản phẩm của doanh nghiệp giúp giải quyết các vấn đề cốt yếu mà khách hàng đang mắc phải.",
+            "B": "Để làm nổi bật các lợi ích thứ cấp mà khách hàng không yêu cầu.",
+            "C": "Để xác định các tác lực môi trường.",
+            "D": "Để định vị vị trí cạnh tranh trên biểu đồ X-Y."
+        },
+        "answer": "A",
+        "explanation": "Giải pháp giảm nỗi đau mô tả cách các sản phẩm cũng như các công cụ của doanh nghiệp giúp giải quyết các vấn đề mà khách hàng đang mắc phải."
+    },
+    {
+        "id": 57,
+        "question": "Một trong những dấu hiệu cho thấy bản kế hoạch kinh doanh chưa được chuẩn bị tốt là \"Quá lạc quan về mặt tài chính\". Điều này có thể được khắc phục như thế nào khi dự báo tài chính?",
+        "options": {
+            "A": "Chỉ trình bày một tình huống thị trường tốt nhất.",
+            "B": "Cân nhắc trình bày cả 3 tình huống thị trường khác nhau (tốt nhất, xấu nhất, và phổ biến nhất) để phản ánh sự cẩn trọng và thực tế.",
+            "C": "Tập trung vào IRR hơn là NPV.",
+            "D": "Tính LTV trong 10 năm thay vì 5 năm."
+        },
+        "answer": "B",
+        "explanation": "Một dấu hiệu của bản kế hoạch chưa tốt là \"Quá lạc quan về mặt tài chính\". Để khắc phục, nhà khởi nghiệp nên cân nhắc trình bày cả 3 tình huống thị trường khác nhau (tốt nhất, xấu nhất, và phổ biến nhất)."
+    },
+    {
+        "id": 58,
+        "question": "Khi sử dụng Mô hình Kinh doanh Nền tảng Đa phương (multi-sided platform), yếu tố nào là điều kiện tiên quyết cho sự thành công?",
+        "options": {
+            "A": "Chỉ cần tập trung vào một nhóm khách hàng duy nhất.",
+            "B": "Tác hợp hai hay nhiều nhóm khách hàng khác biệt nhưng có **mối quan hệ phụ thuộc qua lại**.",
+            "C": "Áp dụng mô hình đột phá thị trường mới.",
+            "D": "Khách hàng thích trả tiền một lần."
+        },
+        "answer": "B",
+        "explanation": "Nền tảng đa phương (multi-sided platform) là mô hình kinh doanh tác hợp hai hay nhiều nhóm khách hàng khác biệt nhưng có mối quan hệ phụ thuộc qua lại."
+    },
+    {
+        "id": 59,
+        "question": "Trong phân tích khả thi tài chính (5 bước), việc \"Xác định dòng tiền\" (Bước 3) bao gồm những thông số nào?",
+        "options": {
+            "A": "Doanh thu, Chi phí hoạt động, và Chi phí đầu tư ban đầu (năm 0).",
+            "B": "Chỉ bao gồm chi phí cố định và chi phí biến đổi.",
+            "C": "Chỉ bao gồm LTV và COCA.",
+            "D": "Chỉ bao gồm Tổng thị trường khả dụng (TAM)."
+        },
+        "answer": "A",
+        "explanation": "Việc xác định dòng tiền (Bước 3) được thực hiện bằng cách dự báo Doanh thu, Chi phí hoạt động, và phải xét đến chi phí đầu tư ban đầu năm 0,."
+    },
+    {
+        "id": 60,
+        "question": "Trong Khung tuyên bố giá trị, việc mô tả \"Nỗi đau\" (Pains) của khách hàng cần tập trung vào điều gì?",
+        "options": {
+            "A": "Những hệ quả xã hội tiêu cực mà khách hàng gặp phải hay lo sợ.",
+            "B": "Những vấn đề, trở ngại mà khách hàng đang gặp phải trong quá trình thực hiện công việc của mình.",
+            "C": "Các vấn đề khiến khách hàng cảm thấy tồi tệ (bực bội, khó chịu).",
+            "D": "Tất cả các phương án trên."
+        },
+        "answer": "D",
+        "explanation": "Mô tả \"Nỗi đau\" bao gồm các vấn đề, trở ngại mà khách hàng gặp phải; những hệ quả xã hội tiêu cực mà khách hàng gặp phải hay lo sợ; và những bực bội, khó chịu,,.\n\n***\n\n### PHẦN IV: BÁN HÀNG, KẾ HOẠCH & GỌI VỐN (LO4)"
+    },
+    {
+        "id": 61,
+        "question": "Quá trình bán hàng điển hình được chia thành 3 giai đoạn: Ngắn hạn, Trung hạn, và Dài hạn. Mục tiêu chính của giai đoạn **Trung hạn** là gì?",
+        "options": {
+            "A": "Mở rộng quy mô kinh doanh và lên sàn chứng khoán.",
+            "B": "Tinh chỉnh sản phẩm, bắt đầu sản xuất, đáp ứng nhu cầu và xây dựng cơ sở hạ tầng sản xuất và bán hàng cần thiết.",
+            "C": "Chỉ tập trung vào việc tạo ra nhu cầu và xác định sản phẩm.",
+            "D": "Phát triển mô hình/kế hoạch kinh doanh cho nhà đầu tư."
+        },
+        "answer": "B",
+        "explanation": "Trong trung hạn, bạn tinh chỉnh sản phẩm của mình, bắt đầu sản xuất, đáp ứng nhu cầu và xây dựng cơ sở hạ tầng sản xuất và bán hàng cần thiết."
+    },
+    {
+        "id": 62,
+        "question": "Giả sử một startup bán phần mềm quản lý doanh nghiệp (B2B). Nếu bộ phận IT của công ty khách hàng có khả năng từ chối phê duyệt giải pháp vì không tương thích với hệ thống hiện tại, vai trò của bộ phận IT trong DMU của startup là gì?",
+        "options": {
+            "A": "Người mua chính (Primary Economic Buyer).",
+            "B": "Người dùng cuối (End User).",
+            "C": "Người có quyền phủ quyết (Person with Veto Power).",
+            "D": "Người ủng hộ (Champion/Advocate)."
+        },
+        "answer": "C",
+        "explanation": "Người có quyền phủ quyết là những người có khả năng từ chối mua hàng vì bất kỳ lý do nào. Ví dụ điển hình là bộ phận IT hay bộ phận mua."
+    },
+    {
+        "id": 63,
+        "question": "Vai trò nào trong Đơn vị ra quyết định mua hàng (DMU) chịu trách nhiệm chính về mặt ngân sách và ra quyết định cuối cùng về việc chi tiền?",
+        "options": {
+            "A": "Người ủng hộ (Champion/Advocate).",
+            "B": "Người dùng cuối (End User).",
+            "C": "Người mua chính (Primary Economic Buyer).",
+            "D": "Người ảnh hưởng (Influencer)."
+        },
+        "answer": "C",
+        "explanation": "Người mua chính (primary economic buyer) là người ra quyết định chính, là người kiểm soát ngân sách,."
+    },
+    {
+        "id": 64,
+        "question": "Khi thiết kế phễu bán hàng (sales funnel) và tối đa hóa chuyển đổi, kỹ thuật \"Tối ưu hóa dựa trên máy tìm kiếm\" (SEO) được phân loại vào kênh truyền tải nội dung nào?",
+        "options": {
+            "A": "Lan truyền (Viral/WOM).",
+            "B": "Tự nhiên (Organic).",
+            "C": "Trả phí (Paid).",
+            "D": "Tiếp thị liên kết (Affiliate advertising)."
+        },
+        "answer": "B",
+        "explanation": "SEO (tối ưu hóa dựa trên máy tìm kiếm) thuộc nhóm Tự nhiên (Organic) trong các kỹ thuật giúp gia tăng tỷ lệ chuyển đổi."
+    },
+    {
+        "id": 65,
+        "question": "Các thành tố/giai đoạn điển hình của phễu bán hàng (sales funnel) là gì?",
+        "options": {
+            "A": "TAM, SAM, SOM, LTV, COCA, NPV.",
+            "B": "Nhận diện, Xem xét, Tương tác, Dự định mua, Mua hàng, Trung thành, Ủng hộ.",
+            "C": "Sản phẩm, Giá cả, Phân phối, Khuyến mãi (4P).",
+            "D": "Doanh thu, Chi phí cố định, Chi phí biến đổi, Lợi nhuận gộp."
+        },
+        "answer": "B",
+        "explanation": "Các thành tố/giai đoạn điển hình của phễu bán hàng là nhận diện, xem xét, tương tác, dự định mua, mua hàng, trung thành, ủng hộ."
+    },
+    {
+        "id": 66,
+        "question": "Một công ty khởi nghiệp đang ở giai đoạn đầu và muốn đo lường mức độ truyền miệng tích cực của sản phẩm. Chỉ số nào phổ biến nhất và đo lường sự sẵn lòng giới thiệu sản phẩm của khách hàng?",
+        "options": {
+            "A": "LTV (Giá trị trọn đời của một khách hàng).",
+            "B": "PP (Thời gian hoàn vốn).",
+            "C": "NPS (Điểm quảng bá ròng).",
+            "D": "COCA (Chi phí để có được một khách hàng)."
+        },
+        "answer": "C",
+        "explanation": "Tính điểm quảng bá (Net Promoter Score—NPS) là cách đơn giản và phổ biến nhất để đo lường mức độ truyền miệng tích cực, bằng cách kiểm tra tỉ lệ phần trăm của Người quảng bá (9, 10 điểm) và trừ đi tỉ lệ phần trăm của Người không muốn quảng bá (6 điểm trở xuống)."
+    },
+    {
+        "id": 67,
+        "question": "Bản kế hoạch kinh doanh (Business Plan) có vai trò là tài liệu giải thích một cơ hội kinh doanh. Điều này có nghĩa gì đối với việc huy động vốn?",
+        "options": {
+            "A": "Nó giúp nhà khởi nghiệp mời gọi đầu tư bằng cách trình bày chi tiết phương cách doanh nghiệp sẽ theo đuổi cơ hội đó.",
+            "B": "Nó chỉ dùng cho độc giả nội bộ (Operational Business Plan).",
+            "C": "Nó là một bài thuyết trình ngắn gọn không quá 2 phút (Elevator Pitch).",
+            "D": "Nó chỉ tập trung vào việc giới thiệu đội ngũ quản lý."
+        },
+        "answer": "A",
+        "explanation": "Bản kế hoạch kinh doanh là một tài liệu giải thích một cơ hội kinh doanh, nhận diện thị trường sẽ phục vụ và cung cấp chi tiết phương cách doanh nghiệp theo đuổi điều đó. Một trong những vai trò của nó là mời gọi đầu tư."
+    },
+    {
+        "id": 68,
+        "question": "Một bản kế hoạch kinh doanh đầy đủ (full business plan) thường có độ dài khoảng bao nhiêu trang và thường được sử dụng cho mục đích gì?",
+        "options": {
+            "A": "10 đến 15 trang, phù hợp với doanh nghiệp mới bắt đầu.",
+            "B": "25 đến 35 trang, thường được sử dụng để chuẩn bị cho các nhà đầu tư.",
+            "C": "40 đến 100 trang, chủ yếu dành cho độc giả nội bộ (kế hoạch vận hành).",
+            "D": "5 đến 10 trang, dùng cho Elevator Pitch."
+        },
+        "answer": "B",
+        "explanation": "Một bản kế hoạch kinh doanh đầy đủ thường dài từ 25 đến 35 trang và là định dạng thường được sử dụng để chuẩn bị một kế hoạch kinh doanh cho các nhà đầu tư."
+    },
+    {
+        "id": 69,
+        "question": "Trong cấu trúc bài Pitch Deck 12 slide, slide nào được sử dụng để minh họa khả năng thâm nhập thị trường thực tế của dự án, cũng như tiềm năng phát triển trong tương lai, thông qua việc trình bày TAM, SAM, SOM?",
+        "options": {
+            "A": "Slide #3: Mô tả vấn đề/nhu cầu.",
+            "B": "Slide #5: Cơ hội thị trường (Market Opportunity).",
+            "C": "Slide #7: Phân tích cạnh tranh và khác biệt.",
+            "D": "Slide #10: Tài chính (Financials)."
+        },
+        "answer": "B",
+        "explanation": "Slide #5 (Cơ hội thị trường) nên minh họa rõ quy mô thị trường ở nhiều cấp độ khác nhau, tiêu biểu là 3 cấp độ gồm TAM, SAM, và SOM,."
+    },
+    {
+        "id": 70,
+        "question": "Tại sao việc xây dựng Phễu bán hàng (sales funnel) theo từng giai đoạn (Ngắn hạn, Trung hạn, Dài hạn) lại là bước cần thiết sau khi xác định Quy trình để có được một khách hàng trả tiền?",
+        "options": {
+            "A": "Để chuyển quy trình từ góc độ khách hàng sang **kế hoạch hành động từng bước một** đứng trên quan điểm công ty.",
+            "B": "Để đảm bảo rằng COCA luôn thấp hơn 1:1.",
+            "C": "Để xác định các thành phần của Khung mô hình kinh doanh.",
+            "D": "Để xác định người có quyền phủ quyết trong DMU."
+        },
+        "answer": "A",
+        "explanation": "Để xác định cách thức bán hàng, nhà khởi nghiệp cần chuyển quy trình để có được một khách hàng trả tiền thành kế hoạch hành động từng bước một và đứng trên quan điểm công ty, và quy trình này được thể hiện dưới dạng hình phễu (phễu bán hàng),."
+    }
+]
