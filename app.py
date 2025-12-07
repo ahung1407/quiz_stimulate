@@ -1,10 +1,11 @@
-from flask import Flask, request, render_template, redirect, url_for, send_from_directory
+from flask import Flask, request, render_template, redirect, url_for, send_from_directory, jsonify
 import re
 import json
 import os
 import string
 import glob
 import sys
+
 
 # --- PHẦN 1: KHỞI TẠO ỨNG DỤNG FLASK ---
 app = Flask(__name__)
@@ -119,6 +120,56 @@ def create_quiz():
         f.write(html_content)
 
     return redirect(url_for('index'))
+
+@app.route('/suggest-update', methods=['POST'])
+def suggest_update():
+    """Nhận góp ý và cập nhật trực tiếp vào tệp JSON của bài trắc nghiệm."""
+    data = request.get_json()
+    if not data:
+        return jsonify({"success": False, "message": "Dữ liệu không hợp lệ"}), 400
+
+    quiz_filename = data.get('quiz_filename')
+    question_id = data.get('question_id') # Đây là kiểu int
+    new_answer = data.get('new_answer')
+    new_explanation = data.get('new_explanation')
+
+    if not all([quiz_filename, question_id, new_answer, new_explanation]):
+        return jsonify({"success": False, "message": "Thiếu thông tin cần thiết"}), 400
+
+    # Xác định đường dẫn tệp JSON
+    if getattr(sys, 'frozen', False):
+        root_dir = os.path.dirname(sys.executable)
+    else:
+        root_dir = os.getcwd()
+    
+    json_path = os.path.join(root_dir, quiz_filename)
+
+    if not os.path.exists(json_path):
+        return jsonify({"success": False, "message": f"Không tìm thấy tệp {quiz_filename}"}), 404
+
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            quiz_data = json.load(f)
+
+        question_found = False
+        for question in quiz_data:
+            if question.get('id') == question_id:
+                question['answer'] = new_answer
+                question['explanation'] = new_explanation
+                question_found = True
+                break
+        
+        if not question_found:
+            return jsonify({"success": False, "message": f"Không tìm thấy câu hỏi với ID {question_id}"}), 404
+
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(quiz_data, f, ensure_ascii=False, indent=4)
+
+        return jsonify({"success": True, "message": "Cập nhật câu hỏi thành công!"})
+
+    except Exception as e:
+        print(f"Lỗi khi cập nhật tệp JSON: {e}")
+        return jsonify({"success": False, "message": "Đã xảy ra lỗi phía máy chủ."}), 500
 
 @app.route('/delete/<path:filename>', methods=['POST'])
 def delete_quiz(filename):

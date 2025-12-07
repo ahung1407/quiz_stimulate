@@ -3,98 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{QUIZ_TITLE}</title>
+    <title>test</title>
     <style>
-        :root {{
+        :root {
             --primary-color: #007bff; --secondary-color: #f8f9fa; --correct-color: #28a745;
             --incorrect-color: #dc3545; --text-color: #212529; --border-color: #dee2e6;
             --shadow-color: rgba(0, 0, 0, 0.1);
-        }}
-        body {{
+        }
+        body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             background-color: var(--secondary-color); color: var(--text-color); display: flex;
             justify-content: center; align-items: center; min-height: 100vh; margin: 0;
             padding: 20px; box-sizing: border-box;
-        }}
-        .quiz-container {{
+        }
+        .quiz-container {
             background-color: white; border-radius: 15px; box-shadow: 0 4px 15px var(--shadow-color);
             width: 100%; max-width: 800px; overflow: hidden;
-        }}
-        .quiz-header {{
+        }
+        .quiz-header {
             padding: 20px 30px; background-color: var(--primary-color); color: white;
             display: flex; justify-content: space-between; align-items: center;
-        }}
-        .quiz-header h2 {{ margin: 0; font-size: 1.5em; }}
-        .question-header {{
+        }
+        .quiz-header h2 { margin: 0; font-size: 1.5em; }
+        .question-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             gap: 1rem;
-        }}
-        #progress {{ font-size: 1em; font-weight: 500; }}
-        .quiz-body {{ padding: 30px; }}
-        #question-text {{ font-size: 1.2em; font-weight: 600; margin-bottom: 25px; line-height: 1.5; flex-grow: 1; }}
-        .options-container {{ display: flex; flex-direction: column; gap: 15px; }}
-        .option {{
+        }
+        #progress { font-size: 1em; font-weight: 500; }
+        .quiz-body { padding: 30px; }
+        #question-text { font-size: 1.2em; font-weight: 600; margin-bottom: 25px; line-height: 1.5; flex-grow: 1; }
+        .options-container { display: flex; flex-direction: column; gap: 15px; }
+        .option {
             background-color: #fff; border: 2px solid var(--border-color); border-radius: 10px;
             padding: 15px; cursor: pointer; transition: all 0.2s ease-in-out;
             display: flex; align-items: center;
-        }}
-        .option:hover {{ border-color: var(--primary-color); }}
-        .option.selected {{ border-color: var(--primary-color); background-color: #e7f3ff; }}
-        .option.correct {{ background-color: #e9f7ec; border-color: var(--correct-color); color: var(--correct-color); font-weight: bold; }}
-        .option.incorrect {{ background-color: #fdecea; border-color: var(--incorrect-color); color: var(--incorrect-color); font-weight: bold; }}
-        .option-key {{
+        }
+        .option:hover { border-color: var(--primary-color); }
+        .option.selected { border-color: var(--primary-color); background-color: #e7f3ff; }
+        .option.correct { background-color: #e9f7ec; border-color: var(--correct-color); color: var(--correct-color); font-weight: bold; }
+        .option.incorrect { background-color: #fdecea; border-color: var(--incorrect-color); color: var(--incorrect-color); font-weight: bold; }
+        .option-key {
             font-weight: bold; margin-right: 15px; min-width: 20px; height: 20px;
             display: inline-flex; justify-content: center; align-items: center;
-        }}
-        .quiz-footer {{ padding: 20px 30px; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end; }}
-        .btn {{
+        }
+        .quiz-footer { padding: 20px 30px; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end; }
+        .btn {
             padding: 12px 25px; border: none; border-radius: 8px; font-size: 1em;
             font-weight: bold; cursor: pointer; color: white; transition: background-color 0.2s;
-        }}
-        #confirm-btn {{ background-color: var(--primary-color); }}
-        #confirm-btn:hover {{ background-color: #0056b3; }}
-        #confirm-btn:disabled {{ background-color: #a0a0a0; cursor: not-allowed; }}
-        #next-btn {{ background-color: var(--correct-color); }}
-        #next-btn:hover {{ background-color: #218838; }}
-        #explanation-container {{
+        }
+        #confirm-btn { background-color: var(--primary-color); }
+        #confirm-btn:hover { background-color: #0056b3; }
+        #confirm-btn:disabled { background-color: #a0a0a0; cursor: not-allowed; }
+        #next-btn { background-color: var(--correct-color); }
+        #next-btn:hover { background-color: #218838; }
+        #explanation-container {
             margin-top: 25px; padding: 20px; background-color: #f1f3f5;
             border-radius: 10px; border-left: 5px solid var(--primary-color); line-height: 1.6;
-        }}
-        #explanation-container strong {{ color: var(--primary-color); }}
-        .results-container {{ padding: 40px; text-align: center; }}
-        .results-container h2 {{ font-size: 2em; margin-bottom: 20px; }}
-        .results-container p {{ font-size: 1.5em; margin-bottom: 30px;}}
-        .hidden {{ display: none; }}
-        .btn-sm {{ padding: 0.4rem 0.8rem; font-size: 0.8rem; }}
-        .btn-secondary {{ background-color: #6c757d; }}
-        .btn-secondary:hover {{ background-color: #5a6268; }}
+        }
+        #explanation-container strong { color: var(--primary-color); }
+        .results-container { padding: 40px; text-align: center; }
+        .results-container h2 { font-size: 2em; margin-bottom: 20px; }
+        .results-container p { font-size: 1.5em; margin-bottom: 30px;}
+        .hidden { display: none; }
+        .btn-sm { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+        .btn-secondary { background-color: #6c757d; }
+        .btn-secondary:hover { background-color: #5a6268; }
         /* Modal Styles */
-        .modal {{
+        .modal {
             display: none; position: fixed; z-index: 1000; left: 0; top: 0;
             width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5);
             justify-content: center; align-items: center; 
-        }}
-        .modal-content {{
+        }
+        .modal-content {
             background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888;
             width: 90%; max-width: 600px; border-radius: 10px;
-        }}
-        .modal-header {{ display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #dee2e6; padding-bottom: 10px; margin-bottom: 15px;}}
-        .modal-header h3 {{ margin: 0; }}
-        .close-btn {{ color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;}}
-        .close-btn:hover, .close-btn:focus {{ color: black;}}
-        .modal-body .form-group {{ margin-bottom: 15px; }}
-        .modal-body label {{ display: block; margin-bottom: 5px; font-weight: bold; }}
-        .modal-body select, .modal-body textarea {{ width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}}
-        .modal-body textarea {{ min-height: 100px; }}
-        .modal-footer {{ display: flex; justify-content: flex-end; gap: 10px; border-top: 1px solid #dee2e6; padding-top: 15px; margin-top: 15px; }}
+        }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #dee2e6; padding-bottom: 10px; margin-bottom: 15px;}
+        .modal-header h3 { margin: 0; }
+        .close-btn { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;}
+        .close-btn:hover, .close-btn:focus { color: black;}
+        .modal-body .form-group { margin-bottom: 15px; }
+        .modal-body label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .modal-body select, .modal-body textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+        .modal-body textarea { min-height: 100px; }
+        .modal-footer { display: flex; justify-content: flex-end; gap: 10px; border-top: 1px solid #dee2e6; padding-top: 15px; margin-top: 15px; }
     </style>
 </head>
 <body>
     <div class="quiz-container" id="quiz-container">
         <div class="quiz-header">
-            <h2 id="quiz-title">{QUIZ_TITLE}</h2>
+            <h2 id="quiz-title">test</h2>
             <div id="progress"></div>
         </div>
         <div class="quiz-body">
@@ -165,19 +165,19 @@
         let score = 0;
         let selectedAnswer = null;
         let answered = false;
-        async function loadQuiz() {{
-            try {{
-                const jsonFilename = '{JSON_FILENAME}';
+        async function loadQuiz() {
+            try {
+                const jsonFilename = 'test.json';
                 const res = await fetch(jsonFilename);
-                if (!res.ok) throw new Error(`HTTP error! status: ${{res.status}}`);
+                if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
                 quizData = await res.json();
                 startQuiz();
-            }} catch (error) {{
+            } catch (error) {
                 console.error("Lỗi khi tải quiz:", error);
-                questionText.innerHTML = `<strong>Lỗi tải dữ liệu!</strong><br>Không thể tải tệp <code>{JSON_FILENAME}</code>. Hãy đảm bảo tệp này tồn tại.`;
-            }}
-        }}
-        function startQuiz() {{
+                questionText.innerHTML = `<strong>Lỗi tải dữ liệu!</strong><br>Không thể tải tệp <code>test.json</code>. Hãy đảm bảo tệp này tồn tại.`;
+            }
+        }
+        function startQuiz() {
             quizData.sort(() => Math.random() - 0.5);
             currentQuestionIndex = 0;
             score = 0;
@@ -185,31 +185,31 @@
             quizContainer.classList.remove('hidden');
             resultsContainer.classList.add('hidden');
             displayQuestion();
-        }}
-        function displayQuestion() {{
+        }
+        function displayQuestion() {
             resetState();
             const question = quizData[currentQuestionIndex];
-            progressText.textContent = `Câu ${{currentQuestionIndex + 1}} / ${{quizData.length}}`;
+            progressText.textContent = `Câu ${currentQuestionIndex + 1} / ${quizData.length}`;
             questionText.textContent = question.question;
             const sortedOptions = Object.keys(question.options).sort();
-            for (const key of sortedOptions) {{
+            for (const key of sortedOptions) {
                 const optionElement = document.createElement('div');
                 optionElement.classList.add('option');
                 optionElement.dataset.key = key;
-                optionElement.innerHTML = `<span class="option-key">${{key}}</span><span>${{question.options[key]}}</span>`;
-                optionElement.addEventListener('click', () => {{
-                    if (!answered) {{
+                optionElement.innerHTML = `<span class="option-key">${key}</span><span>${question.options[key]}</span>`;
+                optionElement.addEventListener('click', () => {
+                    if (!answered) {
                         const currentSelected = document.querySelector('.option.selected');
                         if (currentSelected) currentSelected.classList.remove('selected'); 
                         optionElement.classList.add('selected'); 
                         selectedAnswer = key;
                         confirmBtn.disabled = false;
-                    }}
-                }});
+                    }
+                });
                 optionsContainer.appendChild(optionElement);
-            }}
-        }}
-        function resetState() {{
+            }
+        }
+        function resetState() {
             optionsContainer.innerHTML = '';
             explanationContainer.innerHTML = '';
             explanationContainer.classList.add('hidden');
@@ -219,8 +219,8 @@
             nextBtn.textContent = 'Câu tiếp theo';
             selectedAnswer = null;
             answered = false;
-        }}
-        function checkAnswer() {{
+        }
+        function checkAnswer() {
             answered = true;
             confirmBtn.classList.add('hidden');
             nextBtn.classList.remove('hidden');
@@ -228,81 +228,81 @@
             const isCorrect = selectedAnswer === question.answer;
             if (isCorrect) score++;
             
-            explanationContainer.innerHTML = `<strong>Đáp án đúng: ${{question.answer}}</strong><br>${{question.explanation}}` +
+            explanationContainer.innerHTML = `<strong>Đáp án đúng: ${question.answer}</strong><br>${question.explanation}` +
                 `<br><button id="suggest-btn" class="btn btn-sm btn-secondary" style="margin-top: 10px;">Góp ý/Sửa đổi</button>`;
             explanationContainer.classList.remove('hidden');
             document.getElementById('suggest-btn').addEventListener('click', openSuggestionModal);
 
-            Array.from(optionsContainer.children).forEach(option => {{
+            Array.from(optionsContainer.children).forEach(option => {
                 const optionKey = option.dataset.key;
                 if (optionKey === question.answer) option.classList.add('correct');
                 else if (optionKey === selectedAnswer && !isCorrect) option.classList.add('incorrect');
-            }});
-            if (currentQuestionIndex === quizData.length - 1) {{
+            });
+            if (currentQuestionIndex === quizData.length - 1) {
                 nextBtn.textContent = 'Xem kết quả';
-            }}
-        }}
-        function nextQuestion() {{
+            }
+        }
+        function nextQuestion() {
             currentQuestionIndex++;
             if (currentQuestionIndex < quizData.length) displayQuestion();
             else showResults();
-        }}
-        function showResults() {{
+        }
+        function showResults() {
             quizContainer.classList.add('hidden');
             resultsContainer.classList.remove('hidden');
-            scoreText.textContent = `Bạn đã trả lời đúng ${{score}} / ${{quizData.length}} câu!`;
-        }}
+            scoreText.textContent = `Bạn đã trả lời đúng ${score} / ${quizData.length} câu!`;
+        }
 
-        function copyCurrentQuestion() {{
+        function copyCurrentQuestion() {
             const question = quizData[currentQuestionIndex];
-            let textToCopy = `Câu hỏi: ${{question.question}}\n`;
+            let textToCopy = `Câu hỏi: ${question.question}\n`;
             const sortedOptions = Object.keys(question.options).sort();
-            for (const key of sortedOptions) {{
-                textToCopy += `${{key}}. ${{question.options[key]}}\n`;
-            }}
+            for (const key of sortedOptions) {
+                textToCopy += `${key}. ${question.options[key]}\n`;
+            }
 
-            navigator.clipboard.writeText(textToCopy).then(() => {{
+            navigator.clipboard.writeText(textToCopy).then(() => {
                 copyBtn.innerText = 'Đã copy!';
-                setTimeout(() => {{ copyBtn.innerText = 'Copy'; }}, 2000);
-            }}).catch(err => {{
+                setTimeout(() => { copyBtn.innerText = 'Copy'; }, 2000);
+            }).catch(err => {
                 console.error('Không thể copy: ', err);
-            }});
-        }}
+            });
+        }
 
-        function openSuggestionModal() {{
+        function openSuggestionModal() {
             modal.style.display = 'flex';
             const question = quizData[currentQuestionIndex];
             document.getElementById('new-answer').value = question.answer;
             document.getElementById('new-explanation').value = question.explanation;
-        }}
+        }
 
-        function closeSuggestionModal() {{
+        function closeSuggestionModal() {
             modal.style.display = 'none';
-        }}
+        }
 
-        async function submitSuggestion() {{
+        async function submitSuggestion() {
             const question = quizData[currentQuestionIndex];
-            const payload = {{
-                quiz_filename: '{JSON_FILENAME}',
+            const payload = {
+                quiz_filename: 'test.json',
                 question_id: question.id,
                 new_answer: document.getElementById('new-answer').value,
                 new_explanation: document.getElementById('new-explanation').value
-            }};
+            };
 
-            try {{
-                const response = await fetch('/suggest-update', {{
+            try {
+                const response = await fetch('/suggest-update', {
                     method: 'POST',
-                    headers: {{ 'Content-Type': 'application/json' }},
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload) 
-                }});
+                });
                 const result = await response.json();
                 alert(result.message);
                 if (result.success) closeSuggestionModal();
-            }} catch (error) {{
+            } catch (error) {
                 console.error('Lỗi khi gửi góp ý:', error);
                 alert('Đã xảy ra lỗi khi gửi góp ý của bạn.');
-            }}
-        }}
+            }
+        }
 
         confirmBtn.addEventListener('click', checkAnswer);
         nextBtn.addEventListener('click', nextQuestion);
@@ -310,7 +310,7 @@
         copyBtn.addEventListener('click', copyCurrentQuestion);
         closeModalBtn.addEventListener('click', closeSuggestionModal);
         submitSuggestionBtn.addEventListener('click', submitSuggestion);
-        window.addEventListener('click', (event) => {{ if (event.target == modal) closeSuggestionModal(); }});
+        window.addEventListener('click', (event) => { if (event.target == modal) closeSuggestionModal(); });
         window.onload = loadQuiz;
     </script>
 </body>
