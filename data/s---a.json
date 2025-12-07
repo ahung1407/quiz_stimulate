@@ -44,8 +44,8 @@
             "C": "mAh",
             "D": "dpi"
         },
-        "answer": "A",
-        "explanation": "d\n---"
+        "answer": "B",
+        "explanation": "Tốc độ CPU được đo bằng GHz (gigahertz).\r\n\r\n---"
     },
     {
         "id": 5,

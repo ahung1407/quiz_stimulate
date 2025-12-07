@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Ngôn ngữ lập trình nào dưới đây được dùng phổ biến cho phát triển web phía client?",
+        "options": {
+            "A": "JavaScript",
+            "B": "Python",
+            "C": "C++",
+            "D": "Go"
+        },
+        "answer": "A",
+        "explanation": "JavaScript là ngôn ngữ chạy trên trình duyệt, dùng cho web phía client.\r\n\r\n---"
+    },
+    {
+        "id": 2,
+        "question": "Hành tinh nào gần Mặt Trời nhất?",
+        "options": {
+            "A": "Trái Đất",
+            "B": "Sao Kim",
+            "C": "Sao Thủy",
+            "D": "Sao Hỏa"
+        },
+        "answer": "C",
+        "explanation": "Sao Thủy là hành tinh nằm gần Mặt Trời nhất.\r\n\r\n---"
+    },
+    {
+        "id": 3,
+        "question": "Trong mạng máy tính, giao thức nào dùng để truyền tệp tin?",
+        "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SMTP",
+            "D": "DNS"
+        },
+        "answer": "B",
+        "explanation": "FTP (File Transfer Protocol) dùng để truyền tải tệp tin.\r\n\r\n---"
+    },
+    {
+        "id": 4,
+        "question": "Đơn vị đo tốc độ CPU là gì?",
+        "options": {
+            "A": "MB/s",
+            "B": "GHz",
+            "C": "mAh",
+            "D": "dpi"
+        },
+        "answer": "B",
+        "explanation": "Tốc độ CPU được đo bằng GHz (gigahertz).\r\n\r\n---"
+    },
+    {
+        "id": 5,
+        "question": "Trong lập trình, vòng lặp nào sẽ chạy ít nhất một lần?",
+        "options": {
+            "A": "for",
+            "B": "while",
+            "C": "do-while",
+            "D": "foreach"
+        },
+        "answer": "C",
+        "explanation": "do-while luôn chạy phần thân trước khi kiểm tra điều kiện.\r\n\r\n---"
+    },
+    {
+        "id": 6,
+        "question": "Hệ điều hành nào dưới đây thuộc họ Unix?",
+        "options": {
+            "A": "Windows",
+            "B": "macOS",
+            "C": "MS-DOS",
+            "D": "ChromeOS"
+        },
+        "answer": "B",
+        "explanation": "macOS được xây dựng dựa trên nền tảng Unix.\r\n\r\n---"
+    },
+    {
+        "id": 7,
+        "question": "Phần cứng nào chịu trách nhiệm xử lý đồ họa?",
+        "options": {
+            "A": "CPU",
+            "B": "RAM",
+            "C": "SSD",
+            "D": "GPU"
+        },
+        "answer": "D",
+        "explanation": "GPU (card đồ họa) xử lý hình ảnh và đồ họa.\r\n\r\n---"
+    },
+    {
+        "id": 8,
+        "question": "Trong cơ sở dữ liệu, SQL dùng để làm gì?",
+        "options": {
+            "A": "Thiết kế giao diện",
+            "B": "Lưu trữ ảnh",
+            "C": "Quản lý và truy vấn dữ liệu",
+            "D": "Tạo thuật toán AI"
+        },
+        "answer": "C",
+        "explanation": "SQL (Structured Query Language) dùng để truy vấn và quản lý dữ liệu.\r\n\r\n---"
+    },
+    {
+        "id": 9,
+        "question": "Pin của thiết bị điện tử thường được đo bằng đơn vị gì?",
+        "options": {
+            "A": "Watt",
+            "B": "Volt",
+            "C": "Ampere",
+            "D": "mAh"
+        },
+        "answer": "D",
+        "explanation": "mAh (milliampere-hour) là đơn vị đo dung lượng pin.\r\n\r\n---"
+    },
+    {
+        "id": 10,
+        "question": "Thành phần nào của máy tính dùng để lưu trữ lâu dài?",
+        "options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "SSD/HDD",
+            "D": "Cache"
+        },
+        "answer": "C",
+        "explanation": "SSD hoặc HDD là bộ nhớ lưu trữ lâu dài, giữ dữ liệu khi tắt máy.\r\n\r\n---\r\n\r\nBạn muốn tạo thêm câu hỏi theo chủ đề nào không?"
+    }
+]

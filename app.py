@@ -10,6 +10,10 @@ import sys
 # --- PHẦN 1: KHỞI TẠO ỨNG DỤNG FLASK ---
 app = Flask(__name__)
 
+# Tạo thư mục 'data' nếu chưa tồn tại
+if not os.path.exists('data'):
+    os.makedirs('data')
+
 # --- PHẦN 2: CÁC HÀM TIỆN ÍCH ---
 def parse_quiz_from_content(content: str) -> list:
     """Phân tích nội dung markdown từ một chuỗi thay vì một tệp."""
@@ -62,61 +66,74 @@ def sanitize_filename(name: str) -> str:
 @app.route('/')
 def index():
     """Hiển thị trang chủ để tạo bài trắc nghiệm và liệt kê các bài đã có."""
-    root_dir = os.getcwd() # Sử dụng thư mục làm việc hiện tại
-
-    quiz_files = glob.glob(os.path.join(root_dir, '*.html'))
+    data_dir = os.path.join(os.getcwd(), 'data')
+    quiz_files = glob.glob(os.path.join(data_dir, '*.html'))
     
-    # Loại trừ các tệp không phải bài trắc nghiệm
-    valid_quizzes = []
+    quizzes_by_subject = {}
+
     for f in quiz_files:
         basename = os.path.basename(f)
-        # Bỏ qua các tệp không phải là bài kiểm tra được tạo ra
-        if basename.startswith('creator_') or basename.startswith('quiz_page_') or basename == 'index.html':
+        if basename.startswith('creator_') or basename.startswith('quiz_page_'):
             continue
-        # Kiểm tra xem có tệp json tương ứng không
-        if os.path.exists(os.path.join(root_dir, basename.replace('.html', '.json'))):
-            valid_quizzes.append(basename)
 
-    links = []
-    for filename in sorted(valid_quizzes):
-        pretty_name = filename.replace('_', ' ').replace('.html', ' ').title()
-        links.append({'url': f'/{filename}', 'name': pretty_name, 'filename': filename})
+        if os.path.exists(os.path.join(data_dir, basename.replace('.html', '.json'))):
+            # Quy ước tên tệp: subject_name---quiz_name.html
+            parts = basename.replace('.html', '').split('---')
+            if len(parts) == 2:
+                subject_sanitized, quiz_name_sanitized = parts
+                subject_name = subject_sanitized.replace('_', ' ').title()
+                quiz_name = quiz_name_sanitized.replace('_', ' ').title()
+            else:
+                # Xử lý cho các tệp cũ không theo quy ước
+                subject_name = "Chưa phân loại"
+                quiz_name = basename.replace('.html', '').replace('_', ' ').title()
+
+            if subject_name not in quizzes_by_subject:
+                quizzes_by_subject[subject_name] = []
+            
+            quizzes_by_subject[subject_name].append({
+                'url': f'/data/{basename}', 
+                'name': quiz_name, 
+                'filename': basename
+            })
         
-    return render_template('creator_page.html', quizzes=links)
+    return render_template('creator_page.html', quizzes_by_subject=quizzes_by_subject)
 
 @app.route('/create', methods=['POST'])
 def create_quiz():
     """Nhận dữ liệu từ form, xử lý và tạo các tệp."""
+    subject_name = request.form.get('subject_name')
     quiz_title = request.form.get('quiz_name')
     md_content = request.form.get('md_content')
 
-    if not quiz_title or not md_content:
-        return "Lỗi: Vui lòng cung cấp cả tên và nội dung bài trắc nghiệm.", 400
+    if not all([subject_name, quiz_title, md_content]):
+        return "Lỗi: Vui lòng cung cấp đầy đủ tên môn học, tên bài trắc nghiệm và nội dung.", 400
 
     extracted_data = parse_quiz_from_content(md_content)
     if not extracted_data:
         return "Lỗi: Không trích xuất được câu hỏi nào từ nội dung bạn cung cấp. Vui lòng kiểm tra lại định dạng.", 400
 
-    base_filename = sanitize_filename(quiz_title)
+    # Quy ước tên tệp mới: subject---quiz.html
+    base_filename = f"{sanitize_filename(subject_name)}---{sanitize_filename(quiz_title)}"
     json_filename = f"{base_filename}.json"
     html_filename = f"{base_filename}.html"
 
-    # Xác định thư mục gốc để lưu file
-    if getattr(sys, 'frozen', False):
-        root_dir = os.path.dirname(sys.executable)
-    else:
-        root_dir = os.path.dirname(os.path.abspath(__file__))
-
-    with open(os.path.join(root_dir, json_filename), 'w', encoding='utf-8') as f:
+    data_dir = os.path.join(os.getcwd(), 'data')
+    with open(os.path.join(data_dir, json_filename), 'w', encoding='utf-8') as f:
         json.dump(extracted_data, f, ensure_ascii=False, indent=4)
 
-    # Đọc template và tạo nội dung HTML
     with open(os.path.join(app.root_path, 'templates', 'quiz_page_template.html'), 'r', encoding='utf-8') as f:
         template_content = f.read()
 
-    html_content = template_content.format(QUIZ_TITLE=quiz_title, JSON_FILENAME=json_filename)
+    # Quay lại sử dụng string.Template hoặc str.format vì HTML sẽ không chứa dữ liệu nữa
+    # mà sẽ fetch từ file JSON.
+    html_content = template_content.replace(
+        '{{ QUIZ_TITLE }}', quiz_title
+    ).replace(
+        '{{ JSON_FILENAME }}', json_filename
+    )
 
-    with open(os.path.join(root_dir, html_filename), 'w', encoding='utf-8') as f:
+    with open(os.path.join(data_dir, html_filename), 'w', encoding='utf-8') as f:
         f.write(html_content)
 
     return redirect(url_for('index'))
@@ -136,14 +153,10 @@ def suggest_update():
     if not all([quiz_filename, question_id, new_answer, new_explanation]):
         return jsonify({"success": False, "message": "Thiếu thông tin cần thiết"}), 400
 
-    # Xác định đường dẫn tệp JSON
-    if getattr(sys, 'frozen', False):
-        root_dir = os.path.dirname(sys.executable)
-    else:
-        root_dir = os.getcwd()
+    # Tệp JSON giờ nằm trong thư mục 'data'
+    data_dir = os.path.join(os.getcwd(), 'data')
+    json_path = os.path.join(data_dir, quiz_filename)
     
-    json_path = os.path.join(root_dir, quiz_filename)
-
     if not os.path.exists(json_path):
         return jsonify({"success": False, "message": f"Không tìm thấy tệp {quiz_filename}"}), 404
 
@@ -174,14 +187,10 @@ def suggest_update():
 @app.route('/delete/<path:filename>', methods=['POST'])
 def delete_quiz(filename):
     """Xóa tệp .html và .json của một bài trắc nghiệm."""
-    if getattr(sys, 'frozen', False):
-        root_dir = os.path.dirname(sys.executable)
-    else:
-        root_dir = os.getcwd()
-
-    html_path = os.path.join(root_dir, filename)
-    json_path = os.path.join(root_dir, filename.replace('.html', '.json'))
-
+    data_dir = os.path.join(os.getcwd(), 'data')
+    html_path = os.path.join(data_dir, filename)
+    json_path = os.path.join(data_dir, filename.replace('.html', '.json'))
+    
     try:
         if os.path.exists(html_path): os.remove(html_path)
         if os.path.exists(json_path): os.remove(json_path)
@@ -191,15 +200,11 @@ def delete_quiz(filename):
 
     return redirect(url_for('index'))
 
-@app.route('/<path:filename>')
+@app.route('/data/<path:filename>')
 def serve_quiz_page(filename):
     """Phục vụ các tệp HTML và JSON được tạo ra."""
-    if getattr(sys, 'frozen', False):
-        root_dir = os.path.dirname(sys.executable)
-    else:
-        root_dir = os.path.dirname(os.path.abspath(__file__))
-        
-    return send_from_directory(root_dir, filename)
+    data_dir = os.path.join(os.getcwd(), 'data')
+    return send_from_directory(data_dir, filename)
 
 
 # --- PHẦN 4: CHẠY ỨNG DỤNG ---

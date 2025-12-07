@@ -7,6 +7,7 @@
     <style>
         body { font-family: sans-serif; background-color: #f0f2f5; margin: 0; padding: 2rem; }
         .container { max-width: 900px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .form-row { display: flex; gap: 1rem; }
         h1, h2 { color: #333; }
         .form-group { margin-bottom: 1.5rem; }
         label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
@@ -21,10 +22,15 @@
             text-decoration: none; text-align: center;
         }
         .btn:hover { background-color: #0056b3; }
-        .btn-sm { padding: 0.5rem 1rem; font-size: 0.875rem; }
+        .btn-sm { padding: 0.5rem 0.75rem; font-size: 0.875rem; white-space: nowrap; }
         .btn-danger { background-color: #dc3545; }
         .btn-danger:hover { background-color: #c82333; }
 
+        .subject-group { margin-bottom: 1.5rem; }
+        .subject-title { 
+            font-size: 1.2rem; font-weight: bold; color: #333; 
+            border-bottom: 2px solid #007bff; padding-bottom: 0.5rem; margin-bottom: 1rem;
+        }
         .quiz-list { list-style: none; padding: 0; }
         .quiz-list li { 
             background: #f8f9fa; 
@@ -76,9 +82,15 @@
     <div class="container">
         <h1>Công cụ tạo bài trắc nghiệm</h1>
         <form action="/create" method="post">
-            <div class="form-group">
-                <label for="quiz_name">Tên bài trắc nghiệm:</label>
-                <input type="text" id="quiz_name" name="quiz_name" placeholder="Ví dụ: Bài ôn tập chương 1" required>
+            <div class="form-row">
+                <div class="form-group" style="flex: 1;">
+                    <label for="subject_name">Tên môn học:</label>
+                    <input type="text" id="subject_name" name="subject_name" placeholder="Ví dụ: Khởi nghiệp đổi mới sáng tạo" required>
+                </div>
+                <div class="form-group" style="flex: 2;">
+                    <label for="quiz_name">Tên bài trắc nghiệm:</label>
+                    <input type="text" id="quiz_name" name="quiz_name" placeholder="Ví dụ: Bài ôn tập chương 1" required>
+                </div>
             </div>
             <div class="form-group">
                 <label for="md_content">Dán nội dung Markdown vào đây:</label>
@@ -102,21 +114,28 @@ Giải thích: Nội dung giải thích...</code></pre>
         </form>
         <hr style="margin: 2rem 0;">
         <h2>Các bài trắc nghiệm đã tạo</h2>
-        <ul class="quiz-list">
-            {% for quiz in quizzes %}
-                <li>
-                    <span>{{ quiz.name }}</span>
-                    <div class="quiz-actions">
-                        <a href="{{ quiz.url }}" target="_blank" class="btn btn-sm">Làm bài</a>
-                        <form action="{{ url_for('delete_quiz', filename=quiz.filename) }}" method="post" style="display: inline;">
-                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa bài kiểm tra này không?');">Xóa</button>
-                        </form>
-                    </div>
-                </li>
-            {% else %}
-                <li>Chưa có bài trắc nghiệm nào.</li>
+        {% if quizzes_by_subject %}
+            {% for subject, quizzes in quizzes_by_subject.items() %}
+                <div class="subject-group">
+                    <h3 class="subject-title">{{ subject }}</h3>
+                    <ul class="quiz-list">
+                        {% for quiz in quizzes %}
+                            <li>
+                                <span>{{ quiz.name }}</span>
+                                <div class="quiz-actions">
+                                    <a href="{{ quiz.url }}" target="_blank" class="btn btn-sm">Làm bài</a>
+                                    <form action="{{ url_for('delete_quiz', filename=quiz.filename) }}" method="post" style="display: inline;">
+                                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa bài kiểm tra này không?');">Xóa</button>
+                                    </form>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             {% endfor %}
-        </ul>
+        {% else %}
+            <p>Chưa có bài trắc nghiệm nào.</p>
+        {% endif %}
     </div>
     <script>
         function copyInstruction(button) {
